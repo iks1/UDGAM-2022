@@ -9,7 +9,7 @@ function App() {
       {/*Speakers */} 
       {/* Past Speakers*/} 
       {/* Merch*/} 
-      {/* Get Ticket*/}
+       <GetTicket/>
       {/* Footer*/} 
     </>
   );
