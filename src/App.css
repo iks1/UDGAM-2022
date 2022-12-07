@@ -1,0 +1,104 @@
+body{
+  background-color: #1E1E1E;
+  margin:0;
+}
+html{
+
+  font-size: 62.5%;
+}
+@font-face {
+  font-family: Founders Grotesk;
+  src: url(../Fonts/Test\ Founders\ Grotesk\ Bold\ 700.otf) format(OpenType);
+}
+
+
+h1{
+  margin: 0;
+  padding:0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12.8rem;
+  line-height: 100%;
+  font-family: Founders Grotesk;
+  /* or 128rem */
+
+  display: flex;
+  /* align-items: center; */
+  text-align: center;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  width:74.4rem;
+
+}
+h3{
+  margin: 0;
+  padding: 0;
+}
+p{
+  margin: 0;
+  padding:0;
+  
+}
+.content{
+position:absolute;
+left: 34.7rem;
+top: 15.9rem;
+
+
+}
+.alpha{
+  padding-left: 1.5rem;
+  width:fit-content;
+  font-size: 12.8rem;
+}
+.foot{
+
+position:absolute;
+top:43.6rem;
+left:41.3rem;
+right: 41.3rem;
+bottom: 31.1rem;
+color: rgba(252, 151, 217, 1);
+font-size: 2.9rem;
+font-weight: 400;
+line-height: 3.2rem;
+font-family: Founders Grotesk;
+}
+
+.butn{
+  
+  position:absolute;
+  top: 53.1rem;
+  left:57.65rem;
+  right:58.85rem;
+  display: flex;
+  margin:0 ;
+  width:278px;
+
+}
+.a{
+display: flex;
+vertical-align:middle;
+margin-top: 2.8rem;
+margin-left: 4.8rem;
+width:18.2rem;
+height:2.4rem;
+font-family: 'Action Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 2.0rem;
+line-height: 100%;
+align-items: flex-end;
+letter-spacing: 0.02em;
+text-transform: uppercase;
+color: #000000 ;
+}
+a:link{
+  text-decoration: none;
+}
+.beta{
+  width: fit-content;
+  font-weight: 700;
+  font-size: 12.8rem;
+}
