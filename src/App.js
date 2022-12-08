@@ -1,16 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import Footer from './pages/Footer';
 
 function App() {
   return (
     <>
-      {/*Home */} 
+    
+      {/*homeee */} 
       {/*Events */} 
       {/*Speakers */} 
       {/* Past Speakers*/} 
       {/* Merch*/} 
       {/* Get Ticket*/}
       {/* Footer*/} 
+      <Footer/>
+    
     </>
   );
 }
