@@ -1,17 +1,25 @@
-import logo from './logo.svg';
+import React, { Component } from 'react';
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import './App.css';
+import Events from "./../src/pages/Events";
 
 function App() {
   return (
     <>
-      {/*Home */} 
-      {/*Events */} 
-      {/*Speakers */} 
-      {/* Past Speakers*/} 
-      {/* Merch*/} 
-      {/* Get Ticket*/}
-      {/* Footer*/} 
-    </>
+          {/*Home */} 
+          {/*Events */
+            <Events/>
+          } 
+          
+          {/*Speakers */} 
+          {/* Past Speakers*/} 
+          {/* Merch*/} 
+          {/* Get Ticket*/}
+          {/* Footer*/} 
+    </>     
+        
+      
+    
   );
 }
 
