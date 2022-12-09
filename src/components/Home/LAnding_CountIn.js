@@ -8,14 +8,14 @@ const CountIn = () => {
             variant="primary"
             kind="elevated"
             size="big"
-            colorMode="dark"
-            backgroundColor="yellow"
+            colorMode="light"
+            colorConfig={{backgroundColor:"#F0E266",borderColor:"#736B1F"}}
             onClick={() => {
                 console.log("I'm clicked");
             }}
         >
-            COUNT ME IN
-        </Button>
+            <p style={{color:"black"}}>COUNT ME IN</p>
+    </Button>
     );
 };
 

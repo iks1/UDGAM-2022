@@ -1,8 +1,8 @@
 import React from 'react'
-import Bosch from '../icons/bosch-logo.png'
-import UdgamShapping from '../icons/udgam-spring.png'
-import landingSponsors from '../icons/lands.png'
-import CountIn from './CountIn'
+import Bosch from '../../icons/bosch-logo.png'
+import UdgamShapping from '../../icons/udgam-spring.png'
+import landingSponsors from '../../icons/lands.png'
+import CountIn from './LAnding_CountIn'
 
 function Landing() {
   return (

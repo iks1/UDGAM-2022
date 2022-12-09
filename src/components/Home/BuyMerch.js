@@ -1,5 +1,8 @@
 import React from 'react'
-import "../Merch.css";
+import "./BuyMerch.css";
+import { Button } from '@cred/neopop-web/lib/components';
+import { colorGuide } from '@cred/neopop-web/lib/primitives';
+import { colorPalette } from '@cred/neopop-web/lib/primitives';
 function BuyMerch() {
   return (
     <div className='merch' id='merch'>
@@ -20,8 +23,19 @@ function BuyMerch() {
     </div>
     <div class="backimg">
       
-      <div class="but"><button>BUY NOW</button></div>
-      <div class="ractangle"></div>
+      <div class="but">        
+      <Button
+            variant="primary"
+            kind="elevated"
+            size="big"
+            colorMode="light"
+            colorConfig={{backgroundColor:"#F0E266",borderColor:"#736B1F"}}
+            onClick={() => {
+                console.log("I'm clicked");
+            }}
+        >
+            <p style={{color:"black"}}>BUY MERCH</p>
+    </Button></div>
     </div>
    
      
