@@ -1,38 +1,126 @@
-.App {
-  text-align: center;
-}
+/* navbar*/
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+    background-color:#0c0227;
+    height : 108.51px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.header{
+    position: fixed;
+    background-color:#0c0227;
+    width:100%;
+    top:0;
+    left:0;
+    overflow: hidden;
+    top: 0;
+    left:0;
+    padding:5px;
+    z-index: 99;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-left: 120px;
+    margin-right: 120px;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.logo {
+     width:22.76px;
+     height:64.51px;
   }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    margin-right:10px;
 }
+.nav-links {
+    list-style: none;
+}
+  
+.nav-item a {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight:700px;
+    font-weight:bold;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.second-container{
+    display:flex;
+    flex-direction:row;
+}
+.yellow-button{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    margin-top:13px;
+    height:56px;
+    width:183px;
+    background-color: #DDF140;
+    border-radius:5px;
+
+}
+.yellow-button a{
+    text-decoration: none;
+    color:black;
+    margin-left: -15px;
+    font-size: 18px;
+    font-weight:700;
+    font-weight:bold;
+    line-height: 18px;
+    letter-spacing: 2%;
+    margin-top: 17px;
+    width: 87px;
+    height:18px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+.yellow-button img{
+    width:23px;
+    height:28px;
+    margin-top:13px;
+}
+.hamburger{
+    height:14px;
+    margin-top:33px;
+    margin-right:27px;
+
+}
+
+/*landing page */
+
+.landing{
+    margin-top: 85px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background-color:#0c0227;
+    width: 100%;
+}
+.bosch{
+    margin-top: 80px;
+    width: 160px;
+    height: 45px;
+    opacity: 200;
+}
+.udgamShapping{
+    width:419px;
+    height:293.64px;
+    margin-top:45px;
+}
+.landingSpons{
+    margin-top:45px;
+    filter: brightness(100%);
+    margin-bottom: 24px;
+}
+/*events*/
+
+
+
+/*speakers*/
+
+
