@@ -6,7 +6,7 @@ function Footer() {
       <div className="footer__container">
         <div className="footer__top">
           <div className="company__info">
-            <h2 className="company__logo">
+            <h2 className="company__logo" >
               <svg width="333" height="189" viewBox="0 0 333 189" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M271.832 107.939V24.5118C271.832 22.9202 272.721 22.1244 274.054 22.1244H279.831C282.497 22.1244 282.497 23.716 282.497 24.5118C282.497 60.4552 282.053 105.392 282.053 107.939V127.834C282.053 128.497 282.319 129.823 283.386 129.823C288.57 129.956 299.205 130.141 300.272 129.823C301.338 129.505 301.605 128.364 301.605 127.834V107.939V107.403V24.5118C301.605 22.9202 302.493 22.1244 303.826 22.1244H309.603C312.269 22.1244 312.269 23.716 312.269 24.5118C312.269 60.4552 311.825 105.392 311.825 107.939V127.834C311.825 128.497 312.092 129.823 313.158 129.823H330.932C331.377 129.69 332.266 129.107 332.266 127.834V12.9728C332.266 3.10492 324.267 0.637955 321.157 0.637955H302.938C296.717 0.637955 294.495 4.61693 292.717 7.00431C290.496 4.61693 288.274 0.637955 282.053 0.637955H261.168C257.909 0.903221 251.392 3.74156 251.392 12.9728V127.834C251.392 128.497 251.658 129.823 252.725 129.823H270.499C270.944 129.69 271.832 129.107 271.832 127.834V107.939Z" fill="#F0E266" />
                 <path d="M0 172.411V3.18901C0 0.00366288 1.70644 0.634482 2.64832 0.8C8.82774 1.88598 19.4783 7.1307 21.1866 17.9212V156.882C21.5397 159.43 23.0993 160.067 23.8349 160.067H29.5729C31.3385 160.067 32.0741 157.944 32.2213 156.882V17.9212C32.2213 14.2137 34.9803 4.68617 49.7351 0.790139C51.942 0.790142 51.942 1.98464 51.942 1.98464V172.401C51.942 182.355 44.1387 188.337 37.5179 188.337H14.5658C6.17942 187.143 0 177.985 0 172.411Z" fill="#F0E266" />
@@ -21,42 +21,21 @@ function Footer() {
               </svg>
             </h2>
           </div>
-          <div className="company__info">
-            <a className="footer__title1">E-Cell,IIT Guwahati </a>
-            <a className="footer__title"> Assam-7810389</a>
+          <div className="company__info_text">
+            <p className="footer__title1">E-Cell,IIT Guwahati<br></br> Assam-7810389</p>
             <p className="company__description">
               edc@iitg.ac.in
             </p>
             <p className="company__description">
               +91 7637833974
             </p>
-            <ul className="footer__list">
-              <li className="footer__list-item">
-                <a href="#" className="footer__list-link">
-                  <i className="ri-facebook-circle-line"></i>
-                </a>
-              </li>
-              <li className="footer__list-item">
-                <a href="#" className="footer__list-link">
-                  <i className="ri-instagram-line"></i>
-                </a>
-              </li>
-              <li className="footer__list-item">
-                <a href="#" className="footer__list-link">
-                  <i className="ri-twitter-line"></i>
-                </a>
-              </li>
-              <li className="footer__list-item">
-                <a href="#" className="footer__list-link">
-                  <i className="ri-linkedin-line"></i>
-                </a>
-              </li>
-            </ul>
 
           </div>
+          <div class="right_footer">
+            <p class="dontmissmagic">Don't miss the Magic</p>
 
-
-
+            <p href="" class="signup">Sign up to receive Event notification and Updates</p>
+          </div>
         </div>
 
       </div>

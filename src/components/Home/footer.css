@@ -25,9 +25,8 @@ i {
 }
 
 .footer__top {
-    display: grid;
-    grid-template-columns: 
-    repeat(auto-fit, minmax(20rem, 1fr));
+    display: flex;
+    justify-content: space-between;
     row-gap: 2rem;
 }
 .footer__title {
@@ -52,19 +51,37 @@ i {
     width: 22.5rem;
     height: 4.3rem;
 }
-.footer__title2{
+.right_footer{
+    display: flex;flex-direction: column;justify-content: space-around;
+}
+.dontmissmagic{
   
     color: #fff;
     font-weight: 700;
-    margin-top: 2rem; 
     font-family: 'Founders Grotesk';
     font-style: normal;
     font-size: 2.5rem;
-    line-height: 24px;
     letter-spacing: -0.02em;
     margin-left: 2rem;
     white-space: nowrap;
     color: #F0E266;
+}
+.signup {
+    text-decoration: none;
+    color: inherit;
+    transition: color .25s;
+    font-family: 'Action Sans';
+font-style: normal;
+font-weight: 400;
+position: relative;
+top: 1rem;
+font-size: 1.25rem;
+
+letter-spacing: -0.02em;
+
+
+
+color: #F0E266;
 }
 .footer__list {
     display: flex;
@@ -97,74 +114,18 @@ i {
     padding-right: 18rem;
     
 }
-.footer__list-link {
-    text-decoration: none;
-    color: inherit;
-    transition: color .25s;
-    font-family: 'Action Sans';
-font-style: normal;
-font-weight: 400;
-position: relative;
-top: 1rem;
-font-size: 1.25rem;
-line-height: 2rem;
 
-letter-spacing: -0.02em;
-
-
-
-color: #F0E266;
-}
 .footer__list-link:hover {
     color: #fff;
 }
 
 .company__info {
-    grid-column: 1/-1;
     display: flex;
-    flex-direction: column;
     gap: 1.5rem;
-    padding-right: 5rem;
-    padding-left: rem;
 }
-.company__info2 {
-    
-    grid-column: 1/-1;
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-    padding-right: 5rem;
+.company__logo{
+    width: 100%;
 }
-.udgam_info{
-    gap: 1.5rem;
-    flex-direction: row;
-    
-}
-p.company__description{
-    color: white ;
-    font-size: 1.25rem;
-}
-.company__logo {
-    color: #fff;
-}
-.company__info ul {
-    flex-direction: row;
-}
-.copyright {
-    margin-top: auto;
-}
-.vect_img{
-    position: relative;
-    top: 1.85rem;
-}
-input{
-    width: 18.5rem;
-    height: 4.35rem;
-    border-style: solid;
-    border-color: black;
-}
-@media screen and (min-width: 40em) {
-    .company__info {
-        grid-column: span 2;
-    }
+.company__info_text{
+padding: 20px;
 }
