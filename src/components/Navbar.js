@@ -1,5 +1,5 @@
 import React from 'react'
-import "../App.css";
+import "./Home/navbar_landing.css";
 import Icon from "../icons/icon.png"
 import Buy from "../icons/Ticket.png"
 import Hum from "../icons/hamburger.png"

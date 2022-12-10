@@ -1,24 +1,11 @@
-import Events from './pages/Events'
-import Navbar from './components/Navbar'
-import Landing from './components/Landing';
-import PastSpeakers from './pages/PastSpeakers';
 
+import Home from './pages/Home';
 
 function App() {
   return (
     <>
-      <Navbar/>
-      {/* Home */}
-      <Landing/>
-       {/*Events */ }
-       <Events/>
-      {/* Past Speakers*/}
-      <PastSpeakers/>
-  
-      {/* Merch*/}
-      {/* Get Ticket*/}
-      {/* Footer*/} 
-
+<Home/>
+      
     </>
   );
 }

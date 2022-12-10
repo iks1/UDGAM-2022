@@ -1,5 +1,5 @@
 #container{
-    background-image: url(./icons/eventsBG.png);
+    background-image: url(../../icons/eventsBG.png);
     display: flex;
     flex-direction: column;
     padding: 60px 120px;
@@ -166,7 +166,7 @@
 
 #udgamPass
 {
-    background-image: url(./icons/udgamPassBG.png);
+    background-image: url(../../icons/udgamPassBG.png);
     background:cover;
     width: 412px;
     height: 444px;

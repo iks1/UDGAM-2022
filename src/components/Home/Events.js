@@ -1,13 +1,13 @@
 import React from 'react';
-import udgamLogoPink from "../icons/udgamLogoPink.svg";
-import Vector from "../icons/Vector.svg";
-import Vector2 from "../icons/Vector2.png";
-import check from "../icons/check.png";
-import live from "../icons/live.png";
-import view from "../icons/view.png";
-import barcode from "../icons/barcode.svg";
-import Vector3 from "../icons/Vector3.svg";
-import "../Events.css";
+import udgamLogoPink from "../../icons/udgamLogoPink.svg";
+import Vector from "../../icons/Vector.svg";
+import Vector2 from "../../icons/Vector2.png";
+import check from "../../icons/check.png";
+import live from "../../icons/live.png";
+import view from "../../icons/view.png";
+import barcode from "../../icons/barcode.svg";
+import Vector3 from "../../icons/Vector3.svg";
+import "./Events.css";
 function Events() {
     return (
         <div id="container" >
