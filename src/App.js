@@ -1,11 +1,15 @@
 
 import Home from './pages/Home';
 
+import Schedule from './pages/schedule';
+
+import Contactus from './pages/contactus';
 function App() {
   return (
     <>
-<Home/>
-      
+    <Home/>
+    <Schedule/>
+    <Contactus/>
     </>
   );
 }

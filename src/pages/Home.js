@@ -22,7 +22,7 @@ function Home() {
       {/* Get Ticket*/}
       <GetTicket/>
       {/* Footer*/}
-<Footer/>
+  <Footer/>
     </>
   );
 }

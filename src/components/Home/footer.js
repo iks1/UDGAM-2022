@@ -35,6 +35,7 @@ function Footer() {
             <p class="dontmissmagic">Don't miss the Magic</p>
 
             <p href="" class="signup">Sign up to receive Event notification and Updates</p>
+            
           </div>
         </div>
 
