@@ -30,6 +30,7 @@ function Registration(){
         }
 
         const response = await axios.post('http://localhost:8000/register',{name,lastName,email,outlook,rollNo,password,confirmPassword});
+        {/* will have to add cookies here later */}
         
         const success = response.status===201;
         if(success){}

@@ -35,7 +35,7 @@ app.get('/',(req,res)=>{
 
 app.post('/register',async(req,res)=>{
     const client = new MongoClient(url);
-    const  {email,password} = req.body;
+    const  {name,lastname,outlook,rollno,email,password} = req.body;
 
     const generatedId = uuidv4();
     const hashedPassword = await bcrypt.hash(password,10);
@@ -51,9 +51,18 @@ app.post('/register',async(req,res)=>{
               return res.status(409).send('User already exists');
           }
           const sanitizedEmail = email.toLowerCase();
+          const sanitizedName = name.toLowerCase();
+          const sanitizedLastname = lastname.toLowerCase();
+          const sanitizedOutlook = outlook.toLowerCase();
+          const sanitizedRollno = rollno.toString();
 
           const data = {
+              
               user_id : generatedId,
+              firstName:sanitizedName,
+              lastName:sanitizedLastname,
+              outLook:sanitizedOutlook,
+              rollNo:sanitizedRollno,
               email:sanitizedEmail,
               hashedPassword:hashedPassword
           }
