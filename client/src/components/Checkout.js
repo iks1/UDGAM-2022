@@ -16,7 +16,7 @@ const Checkout = (props) => {
             }}
             icon={props.icon}
         >
-            <p style={{color:"rgba(0, 0, 0, 0.36)"}}>{props.title}</p>
+            <div style={{color:"rgba(0, 0, 0, 0.36)",}}>{props.title}</div>
     </Button>
     );
 };

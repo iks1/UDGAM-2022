@@ -5,7 +5,7 @@ import { colorGuide } from '@cred/neopop-web/lib/primitives';
 import { colorPalette } from '@cred/neopop-web/lib/primitives';
 function BuyMerch() {
   return (
-    <div className='merch' id='merch'>
+    <div className='merch' id='merch'  style={{backgroundColor:"#0c0227"}}>
        <div class="top">
     <h1>BUY OUR MERCH</h1>
     <button >View All Merch<svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -23,18 +23,18 @@ function BuyMerch() {
     </div>
     <div class="backimg">
       
-      <div class="but">        
+      <div class="but_merch">        
       <Button
             variant="primary"
             kind="elevated"
             size="big"
             colorMode="light"
-            colorConfig={{backgroundColor:"#F0E266",borderColor:"#736B1F"}}
+            colorConfig={{backgroundColor:"#D4F34A",borderColor:"#000000",edgeColors:{right:"#FC97D9",bottom:"#FC97D9"}}}
             onClick={() => {
                 console.log("I'm clicked");
             }}
         >
-            <p style={{color:"black"}}>BUY MERCH</p>
+            <div style={{color:"black"}}>BUY MERCH</div>
     </Button></div>
     </div>
    

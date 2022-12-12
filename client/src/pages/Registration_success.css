@@ -1,0 +1,213 @@
+
+.image{
+    
+    position: relative;
+    top: 310px;
+    right: -11.5px;
+}
+
+.mail p{
+    color: white;
+    position: absolute;
+    width: 213px;
+    height: 54px;
+    left: 69px;
+    top: 156px;
+    
+    font-family: 'Action Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 110%;
+    /* or 18px */
+}
+.main{
+    display: flex;
+    /* background-image: url("/Vector.png"); */
+    
+}
+.para1{
+    font-size: 33px;
+    text-align: center;
+    color: white;
+    width: 610px;
+    height: 76px;
+    position: relative;
+    left: 0;
+    bottom: 96px;
+}
+.pass{
+    position: absolute;
+    width: 590px;
+    height: 314px;
+    left: 184px;
+    top: 256px;
+}
+.mail{position: absolute;
+    width: 335px;
+    height: 288px;
+    left: 301px;
+    top: 720px;
+    }
+
+
+
+
+
+
+
+
+.fst{
+   
+    /* top: 50px; */
+    /* padding: 18px 4px; */
+    background-color: #D4F34A;
+    height: 20px;
+    color: #09021C;
+    justify-content: space-evenly;
+    width: 276px;
+    height: 56px;
+    border: 2.31218px solid #09021C;
+    font-family: 'Action Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 100%;
+border-radius: 4px;
+    
+    align-content: center;
+    align-items: center;
+   
+}
+
+.scnd{
+    background-color: #09021C;
+    height: 20px;
+    color: #D4F34A;
+    justify-content: space-evenly;
+    width: 276px;
+    height: 56px;
+    border: 2.31218px solid #D4F34A;
+    font-family: 'Action Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;;
+    align-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.second{
+    align-items: center;
+}
+.thrd{
+    height: 104px;
+    width: 552px;
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    color: white;
+}
+
+
+.mail{
+    position: absolute;
+width: 335px;
+height: 288px;
+left: 301px;
+top: 720px;
+
+background: #1C1C1C;position: absolute;
+width: 335px;
+height: 288px;
+left: 301px;
+top: 720px;
+
+background: #1C1C1C;
+
+}
+
+
+.mail svg{
+    position: relative;
+    left: 63px;
+    top: 57px;
+}
+
+
+.mail p{
+    position: relative;
+    left: 69px;
+    top: 73px;
+}
+
+.col2{
+    
+    position: absolute;
+width: 370.19px;
+height: 837px;
+left: 917px;
+top: 124px;
+background-image:url("../icons/final1.png");
+background-repeat:no-repeat;
+}
+
+.qr{
+    position: absolute;
+width: 369px;
+height: 68px;
+left: 0px;
+top: 811px;
+
+}
+
+
+.name{
+    width: 265px;
+height: 38px;
+
+font-family: 'Action Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 38px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.280959px;
+
+color: #DDF140;
+position: relative;
+top: 520px;
+left: 103px;
+}
+
+
+.mailId{
+    width: 150px;
+height: 19px;
+
+font-family: 'Action Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.280959px;
+
+color: #757575;
+
+position: relative;
+top: 537px;
+left: 105px;
+
+}
