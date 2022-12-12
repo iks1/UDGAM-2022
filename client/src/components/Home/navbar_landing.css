@@ -19,7 +19,7 @@ body{
 .navbar {
     display: flex;
     justify-content: space-between;
-    margin-top: 40px;
+    margin-top: 20px;
     margin-left: 120px;
     margin-right: 120px;
   }
@@ -31,6 +31,12 @@ body{
     display: flex;
     flex-direction: row;
     margin-right:10px;
+    margin:auto 0; 
+}
+.navlinParent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .nav-links {
     list-style: none;
@@ -56,7 +62,6 @@ body{
     display:flex;
     flex-direction:row;
     justify-content: space-evenly;
-    margin-top:13px;
     height:56px;
     width:183px;
     background-color: #DDF140;
@@ -83,13 +88,21 @@ body{
     height:28px;
     margin-top:13px;
 }
-.hamburger{
-    height:14px;
-    margin-top:33px;
-    margin-right:27px;
 
+.hamburgerParent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
+.hamburger{
+    padding: 0 30px;
+}
+.yellowButtonParent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 /*landing page */
 
 .landing{

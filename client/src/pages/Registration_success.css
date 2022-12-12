@@ -1,64 +1,5 @@
+.fstbtnsuccess {
 
-.image{
-    
-    position: relative;
-    top: 310px;
-    right: -11.5px;
-}
-
-.mail p{
-    color: white;
-    position: absolute;
-    width: 213px;
-    height: 54px;
-    left: 69px;
-    top: 156px;
-    
-    font-family: 'Action Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 110%;
-    /* or 18px */
-}
-.main{
-    display: flex;
-    /* background-image: url("/Vector.png"); */
-    
-}
-.para1{
-    font-size: 33px;
-    text-align: center;
-    color: white;
-    width: 610px;
-    height: 76px;
-    position: relative;
-    left: 0;
-    bottom: 96px;
-}
-.pass{
-    position: absolute;
-    width: 590px;
-    height: 314px;
-    left: 184px;
-    top: 256px;
-}
-.mail{position: absolute;
-    width: 335px;
-    height: 288px;
-    left: 301px;
-    top: 720px;
-    }
-
-
-
-
-
-
-
-
-.fst{
-   
     /* top: 50px; */
     /* padding: 18px 4px; */
     background-color: #D4F34A;
@@ -69,18 +10,18 @@
     height: 56px;
     border: 2.31218px solid #09021C;
     font-family: 'Action Sans';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 100%;
-border-radius: 4px;
-    
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    border-radius: 4px;
+
     align-content: center;
     align-items: center;
-   
+
 }
 
-.scnd{
+.scndbtnsuccess {
     background-color: #09021C;
     height: 20px;
     color: #D4F34A;
@@ -92,122 +33,151 @@ border-radius: 4px;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
-    line-height: 100%;;
+    line-height: 100%;
+    ;
     align-content: center;
     align-items: center;
     border-radius: 4px;
 }
 
-.second{
-    align-items: center;
+.secondbtnsuccess {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
-.thrd{
-    height: 104px;
-    width: 552px;
+
+.thrdbtnsuccess {
     background: none;
-	color: inherit;
-	border: none;
-	padding: 0;
-	font: inherit;
-	cursor: pointer;
-	outline: inherit;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
     color: white;
+    text-align: center;
+    margin: 50px 0;
 }
 
+.passbtnsuccess {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
-.mail{
-    position: absolute;
-width: 335px;
-height: 288px;
-left: 301px;
-top: 720px;
+.para1btnsuccess {
+    font-size: 33px;
+    text-align: center;
+    color: white;
+    left: 0;
+    bottom: 96px;
+    margin-top: 200px;
+}
 
-background: #1C1C1C;position: absolute;
-width: 335px;
-height: 288px;
-left: 301px;
-top: 720px;
-
-background: #1C1C1C;
+.mainbtnsuccess {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 200px;
+    /* background-image: url("/Vector.png"); */
 
 }
 
+.col1btnsuccess {
+    background-repeat: no-repeat;
+    width: 50%;
+}
 
-.mail svg{
+.col2btnsuccess {
     position: relative;
-    left: 63px;
-    top: 57px;
+    text-align: center;
 }
 
-
-.mail p{
-    position: relative;
-    left: 69px;
-    top: 73px;
-}
-
-.col2{
-    
+.qr_passsuccess {
     position: absolute;
-width: 370.19px;
-height: 837px;
-left: 917px;
-top: 124px;
-background-image:url("../icons/final1.png");
-background-repeat:no-repeat;
-}
-
-.qr{
-    position: absolute;
-width: 369px;
-height: 68px;
-left: 0px;
-top: 811px;
+    width: 369px;
+    height: 68px;
+    left: 0px;
+    top: 740px;
 
 }
 
 
-.name{
+.name_passsuccess {
     width: 265px;
-height: 38px;
+    height: 38px;
 
-font-family: 'Action Sans';
-font-style: normal;
-font-weight: 500;
-font-size: 32px;
-line-height: 38px;
-/* identical to box height */
+    font-family: 'Action Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    /* identical to box height */
 
-display: flex;
-align-items: center;
-letter-spacing: 0.280959px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.280959px;
 
-color: #DDF140;
-position: relative;
-top: 520px;
-left: 103px;
+    color: #DDF140;
+    position: relative;
+    top: -295px;
+    left: 99px;
 }
 
 
-.mailId{
+.mailId_passsuccess {
     width: 150px;
-height: 19px;
+    height: 19px;
 
-font-family: 'Action Sans';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 19px;
-/* identical to box height */
+    font-family: 'Action Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
 
-display: flex;
-align-items: center;
-letter-spacing: 0.280959px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.280959px;
 
-color: #757575;
+    color: #757575;
 
-position: relative;
-top: 537px;
-left: 105px;
+    position: relative;
+    top: -273px;
+    left: 105px;
 
+}
+
+.mailbtnsuccessParent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.mailbtnsuccess {
+
+
+    background: #1C1C1C;
+
+    width: 335px;
+    height: 288px;
+    position: relative;
+
+    background: #1C1C1C;
+
+}
+
+.mailbtnsuccess svg {
+    position: absolute;
+    left: 63px;
+    top: 33px;
+}
+
+.mailbtnsuccess p {
+    position: absolute;
+    left: 69px;
+    right:69px;
+    top: 120px;
+    text-align: center;
+    color: #fff;
 }

@@ -6,7 +6,7 @@ import Vector2 from '../icons/arrow.svg'
 import Checkout from '../components/Checkout';
 import Vector3 from '../icons/udgam.svg';
 import Navbar from '../components/Navbar';
-import './Registration2.css';
+import './Registration.css';
 import axios from 'axios'
 import { useState } from 'react';
 
@@ -42,7 +42,7 @@ function Registration() {
     }
 
   }
-  return (<>
+  return (<body style={{ height: "150vh" }}>
     <Navbar />
 
 
@@ -134,7 +134,7 @@ function Registration() {
 
         </div>
       </div>
-  </>
+  </body>
   )
 
 }
