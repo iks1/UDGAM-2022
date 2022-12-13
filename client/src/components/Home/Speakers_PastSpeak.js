@@ -28,7 +28,7 @@ const responsive = {
 function PastSpeakers() {
   return (
     <>
-    <div id='speakers'>
+    <div id='speakers' style={{backgroundColor:"#0c0227"}}>
       <div className="top">
         <h1>SPEAKERS THIS YEAR</h1>
         <button >Watch It Live</button>
@@ -109,7 +109,7 @@ function PastSpeakers() {
 
 
     
-    <div className='pastSpeaker'>
+    <div className='pastSpeaker'  style={{backgroundColor:"#0c0227"}}>
     <div className="top">
         <h1>PAST SPEAKERS</h1>
       </div>

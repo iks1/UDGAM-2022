@@ -5,36 +5,38 @@ import Buy from "../icons/Ticket.png"
 import Hum from "../icons/hamburger.png"
 
 function Navbar() {
-  
+
   return (
-   <div className='header'>
-    <section className='navbar'>
-      <div className='image-container'>
-        <img className='logo' src={Icon} alt='logo' />
-      </div>
+    <div className='header'>
+      <section className='navbar'>
+        <div className='image-container'>
+          <img className='logo' src={Icon} alt='logo' />
+        </div>
 
-      <div className='second-container'>
-          <ul className='nav-links'>
-            <li className='nav-item'><a href='#container'>Events</a></li>
-            <li className='nav-item'><a href='#'>Schedule</a></li>
-            <li className='nav-item'><a href='#merch'>Merch</a></li>
-          </ul>
+        <div className='second-container'>
+            <ul className='nav-links'>
+              <li className='nav-item'><a href='#container'>Events</a></li>
+              <li className='nav-item'><a href='#'>Schedule</a></li>
+              <li className='nav-item'><a href='#merch'>Merch</a></li>
+            </ul>
+          <div className='hamburgerParent' >
+            <img className='hamburger' src={Hum} alt='menu' />
+          </div>
 
-        <img className='hamburger' src={Hum} alt='menu'/>
-        
-        <div className='yellow-button'>
-           <img src={Buy} alt='buy-ticket'/>
-           <a href='#'>BUY NOW</a>
+          <div className='yellowButtonParent' >
+            <div className='yellow-button'>
+              <img src={Buy} alt='buy-ticket' />
+              <a href='#'>BUY NOW</a>
+
+            </div>
+          </div>
 
         </div>
-        
 
-      </div>
-      
 
-      
+
       </section>
-      
+
     </div>
   )
 }

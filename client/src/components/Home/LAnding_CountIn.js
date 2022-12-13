@@ -9,12 +9,12 @@ const CountIn = () => {
             kind="elevated"
             size="big"
             colorMode="light"
-            colorConfig={{backgroundColor:"#F0E266",borderColor:"#736B1F"}}
+            colorConfig={{backgroundColor:"#D4F34A",borderColor:"#000000",edgeColors:{right:"#FC97D9",bottom:"#FC97D9"}}}
             onClick={() => {
                 console.log("I'm clicked");
             }}
         >
-            <p style={{color:"black"}}>COUNT ME IN</p>
+            <div style={{color:"black"}}>COUNT ME IN</div>
     </Button>
     );
 };

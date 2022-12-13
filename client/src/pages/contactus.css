@@ -1,18 +1,16 @@
 .side_box{
-    height: 270px;
-    width: 270px;
-    border-radius: 0px;
-    background-color:  #D9D9D9;
-    margin-top: 200px;
+
+    padding-top: 200px;
 }
 .euro{
     padding-left: 150px;
     padding-right: 150px;
 }
-
+.submit_contactus{
+    padding-top: 1rem;
+}
 .contact_us{
-    background-image: linear-gradient( #1A074E, #060213);
-    overflow-x: hidden;
+    overflow-x: hidden;  margin-top: 200px;
 }
 .name{
     display: flex;
