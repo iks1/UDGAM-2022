@@ -126,4 +126,44 @@
     float: left;
     margin-left: 25px;
 }
+
+.humburg{
+    background-image: linear-gradient( #060213, #060213);
+    overflow-x: hidden;
+    -ms-overflow-style: none;  
+    scrollbar-width: none;
+    padding-top: 100px;
+    height: 100%;
+    overflow-y: scroll;
 }
+.humnav{
+    font-size: xx-large;
+}
+}
+
+.humburgphone{
+   background-color: #060213;
+   padding-top: 130px;
+   width: 100%;
+   height: 100vh;
+}
+.navbarphone{
+    font-size: xx-large;
+    color:white;
+    padding: 30px;
+    text-align: center;
+    font-size: xx-large;
+}
+.navbarphone a{
+    width: 100%;
+    text-align: center;
+    color:white;
+    text-decoration: none;
+}
+.navbarphone a:hover{
+    width: 100%;
+    text-align: center;
+    color:white;
+    color: #b2b2b2;
+}
+

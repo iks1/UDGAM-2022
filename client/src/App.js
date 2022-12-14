@@ -8,8 +8,11 @@ import Contactus from './pages/contactus';
 import Registration from './pages/Registration';
 import RegSuc from './pages/Registration_success';
 import RegFail from './pages/Registration_fail';
-import Hamburger from './components/hamburger';
 import NotFound from './pages/notFound';
+import AllSpeakers from './pages/allspeaker';
+import MoreEvents from './pages/MoreEvents';
+import Sponsors from './pages/sponsors';
+import OurTeam from './pages/ourteam';
 function App() {
   return (
     <body  >
@@ -20,7 +23,10 @@ function App() {
       <Route exact path='/registration/success' element={<RegSuc/>}/>
       <Route exact path='/registration/failure' element={<RegFail/>}/>
       <Route exact path="/contactus" element={<Contactus />} />
-      <Route exact path="/menu" element={< Hamburger/>} />
+      <Route exact path="/speakers" element={<AllSpeakers />} />
+      <Route exact path="/sponsors" element={<Sponsors />} />
+      <Route exact path="/events" element={<MoreEvents/>} />
+      <Route exact path="/ourteam" element={<OurTeam/>} />
       <Route exact path="*" element={<NotFound/>} />
     </Routes>
 
