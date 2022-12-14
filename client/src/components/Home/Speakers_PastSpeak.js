@@ -5,6 +5,18 @@ import './Speakers.css'
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import one from "../../PhotosPng/Ankur-Warikoo.png"
+import two from "../../PhotosPng/Bindeshwar Pathak.png"
+import three from "../../PhotosPng/brijesh agraval.png"
+import four from "../../PhotosPng/kevin-harrington-speaker-large.png"
+import five from "../../PhotosPng/michael seibel.png"
+import six from "../../PhotosPng/Mostly sane.png"
+import seven from "../../PhotosPng/Nobroker.png"
+import eight from "../../PhotosPng/Quora.png"
+import nine from "../../PhotosPng/Rohit-Kapoor.png"
+import ten from "../../PhotosPng/Udaan.png"
+import eleven from "../../PhotosPng/Upstox.png"
+import twelve from "../../PhotosPng/Vedantu.png"
 const responsive = {
   superLargeDesktop: {
     // the naming can be any, depends on you.
@@ -31,7 +43,7 @@ function PastSpeakers() {
     <div id='speakers' style={{backgroundColor:"#0c0227"}}>
       <div className="top">
         <h1>SPEAKERS THIS YEAR</h1>
-        <button >Watch It Live</button>
+        <button className='button'>Watch It Live</button>
       </div>
       <div className="main1">
         <div className="speaker speakerOdd speaker1">
@@ -149,37 +161,68 @@ function PastSpeakers() {
         </div> */}
        <Carousel responsive={responsive}>
        <div className="img">
-          <img src={photo} alt="photo" width="273px" height="258px" />
+          <img src={one} alt="photo" width="273px" height="258px" />
+          <h1>Ankur Warikoo</h1>
+          <h3>Nearbuy</h3>
+          <p>Founder</p>
+        </div>
+        <div className="img">
+          <img src={two} alt="photo" width="273px" height="258px" />
           <h1>Samin Norsat</h1>
           <h3>Quora</h3>
           <p>Co-Founder</p>
         </div>
         <div className="img">
-          <img src={photo} alt="photo" width="273px" height="258px" />
+          <img src={three} alt="photo" width="273px" height="258px" />
           <h1>Samin Norsat</h1>
           <h3>Quora</h3>
           <p>Co-Founder</p>
         </div>
         <div className="img">
-          <img src={photo} alt="photo" width="273px" height="258px" />
+          <img src={four} alt="photo" width="273px" height="258px" />
           <h1>Samin Norsat</h1>
           <h3>Quora</h3>
           <p>Co-Founder</p>
         </div>
         <div className="img">
-          <img src={photo} alt="photo" width="273px" height="258px" />
+          <img src={five} alt="photo" width="273px" height="258px" />
           <h1>Samin Norsat</h1>
           <h3>Quora</h3>
           <p>Co-Founder</p>
         </div>
         <div className="img">
-          <img src={photo} alt="photo" width="273px" height="258px" />
+          <img src={six} alt="photo" width="273px" height="258px" />
           <h1>Samin Norsat</h1>
           <h3>Quora</h3>
           <p>Co-Founder</p>
         </div>
         <div className="img">
-          <img src={photo} alt="photo" width="273px" height="258px" />
+          <img src={seven} alt="photo" width="273px" height="258px" />
+          <h1>Samin Norsat</h1>
+          <h3>Quora</h3>
+          <p>Co-Founder</p>
+        </div><div className="img">
+          <img src={eight} alt="photo" width="273px" height="258px" />
+          <h1>Samin Norsat</h1>
+          <h3>Quora</h3>
+          <p>Co-Founder</p>
+        </div><div className="img">
+          <img src={nine} alt="photo" width="273px" height="258px" />
+          <h1>Samin Norsat</h1>
+          <h3>Quora</h3>
+          <p>Co-Founder</p>
+        </div><div className="img">
+          <img src={ten} alt="photo" width="273px" height="258px" />
+          <h1>Samin Norsat</h1>
+          <h3>Quora</h3>
+          <p>Co-Founder</p>
+        </div><div className="img">
+          <img src={eleven} alt="photo" width="273px" height="258px" />
+          <h1>Samin Norsat</h1>
+          <h3>Quora</h3>
+          <p>Co-Founder</p>
+        </div><div className="img">
+          <img src={twelve} alt="photo" width="273px" height="258px" />
           <h1>Samin Norsat</h1>
           <h3>Quora</h3>
           <p>Co-Founder</p>

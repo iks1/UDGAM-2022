@@ -41,7 +41,7 @@ function RegFail() {
             </svg>
             </div>
           </div>
-          <div class="boxback_paymentFail"></div>
+          {/* <div class="boxback_paymentFail"></div> */}
 
         </div>
 
