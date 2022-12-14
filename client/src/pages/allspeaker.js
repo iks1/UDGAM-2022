@@ -4,6 +4,7 @@ import './allspeaker.css'
 import speak from "../icons/speaker.png"
 import one from "../PhotosPng/Ankur-Warikoo.png"
 import Navbar from '../components/Navbar';
+import './ourteam.css';
 import linkicon from "../icons/Frame 341665.png"
 function AllSpeakers() {
     return (

@@ -6,7 +6,7 @@
 
 #moreEvents{
     background-image: url(../icons/moreEventsBg.png);
-    padding:120px;
+    /* padding:120px; */
 }
 
 #eventsListHeading{

@@ -18,6 +18,7 @@ import ten from "../../PhotosPng/Udaan.png"
 import eleven from "../../PhotosPng/Upstox.png"
 import twelve from "../../PhotosPng/Vedantu.png"
 import linkicon from "../../icons/Frame 341665.png"
+import '../../pages/ourteam.css';
 const responsive = {
   superLargeDesktop: {
     // the naming can be any, depends on you.

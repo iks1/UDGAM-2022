@@ -4,9 +4,10 @@ import './ourteam.css';
 
 import speak from "../icons/speaker.png"
 import linkicon from "../icons/Frame 34161.png"
+import Navbar from '../components/Navbar';
 function OurTeam() {
     return (
-        <>
+        <><Navbar/>
             <div className='teampage'>
                 <div class="topallmembers">
                     <h1>OUR TEAM</h1>
@@ -204,7 +205,14 @@ function OurTeam() {
                     </div>
 
                 </div>
+
+
+
+
+           
             </div>
+
+
         </>
     );
 }
