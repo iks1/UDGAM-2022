@@ -440,5 +440,15 @@ background-color: #09021C;
             flex-direction: column;
             align-items: center;justify-content: center;
         }
+        .speakerOdd svg{
+            position: relative;
+            left: 17%;
+        }
+        .speakerEven svg{
+            position: relative;
+            /* left: -3px; */
+            top: 30px;
+            left: 17%;
+        }
 }
 

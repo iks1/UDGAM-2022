@@ -10,8 +10,11 @@
     justify-content:space-between;
     
 }
+.currentspeak{
+    overflow-x: hidden;
+}
 .top h1{
-    font-family: Founders Grotesk;
+    font-family: 'Space Grotesk', sans-serif;
     color: #FC97D9;
     font-weight: 700;
     font-size: 64px;

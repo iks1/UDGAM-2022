@@ -160,11 +160,12 @@
         font-size: 16px;
     }
     .text-button{
-        margin-left: 30%;
+        margin-left: 10%;
+        margin-right: 10%;
     }
     .text-button h1{
-        font-size: 36px;
-        width: 100vw;
+        font-size: xx-large;
+        width: 100%;
     }
     .media-partner{
         flex-wrap: wrap;

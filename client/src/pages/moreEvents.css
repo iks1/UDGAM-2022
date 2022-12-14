@@ -5,7 +5,7 @@
 }
 
 #moreEvents{
-    background-image: url(./icons/moreEventsBg.png);
+    background-image: url(../icons/moreEventsBg.png);
     padding:120px;
 }
 
@@ -198,7 +198,7 @@
 .box
 {
     height: 190px;
-    background-image: url(./icons/boxOLBG.png);
+    background-image: url(../icons/boxOLBG.png);
     background-size: cover;
     display: flex;
     flex-direction: row;
@@ -209,7 +209,7 @@
     margin-bottom: 8px;
 }
 
-.img
+.imgevent
 {
     margin: 21px 0 0 29px;
 }

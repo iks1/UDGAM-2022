@@ -33,7 +33,7 @@ function Sponsors() {
                 </div>
             </div>
 
-            <div class="partners media-partner">
+            <div class="partners event-partner">
                 <h3>Media Partners</h3>
                 <div class="individual-partner">
                 <img src={sponsordemo}></img> 
