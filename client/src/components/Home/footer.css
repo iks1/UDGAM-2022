@@ -25,6 +25,14 @@ i {
     top:5rem;
     background-color: #D9D9D9;
 }
+.input_pass{
+    width: 330px;
+    height: 60px;
+    border-color: black ;
+    box-shadow: 9px 9px 3px 2px black;
+    box-shadow: 8px 8px 2px 1px  #736B1F;
+    padding-left: 24px;
+}
 @media (max-width: 600px){
     .footer__top{
        display: flex;
