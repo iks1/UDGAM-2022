@@ -1,5 +1,9 @@
+html{
+
+  font-size: 62.5%;
+}
 .getticket{
-    background-color: #1E1E1E;
+    background-color: black;
     margin:0;
   }
 
@@ -8,13 +12,14 @@
     padding:0;
     font-style: normal;
     font-weight: 700;
-    font-size: 100px;
+    font-size: 12.8rem;
     line-height: 100%;
     text-align: center;
-    padding-top: 250px;
+    padding-top: 25.0rem;
     
-;padding-bottom: 30px;
+;padding-bottom: 3.0rem;
 color: #FFFFFF;
+text-shadow: 0.1rem 0.5rem rgba(252, 151, 217, 1) ;
 }
 
 .getticket h3{
@@ -23,10 +28,28 @@ color: #FFFFFF;
     text-align: center;
 color: rgba(252, 151, 217, 1);
   font-weight: 400;
+  font-size: 3.2rem;
 }
 
 .buttoncenter{
-    margin: 20px;
+    margin: 2.0rem;
     text-align: center;
-    padding-bottom: 250px;
+    padding-bottom: 25.0rem;
+}
+
+.GetTkt{
+  font-size: 24px;
+  font-weight: 700;
+}
+
+@media(max-width:600px){
+
+.getticket h1{
+
+  font-size: 5rem;
+}
+.getticket h3{
+
+  font-size: 1.4rem;
+}
 }
