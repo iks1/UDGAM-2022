@@ -43,7 +43,7 @@ function PastSpeakers() {
     <div id='speakers' style={{backgroundColor:"#0c0227"}}>
       <div className="top">
         <h1>SPEAKERS THIS YEAR</h1>
-        <button className='button'>Watch It Live</button>
+        <button className='button'>Watch It Live →</button>
       </div>
       <div className="main1">
         <div className="speaker speakerOdd speaker1">
