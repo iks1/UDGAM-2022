@@ -19,6 +19,7 @@
     text-decoration: none;
     cursor: pointer;
     text-align: left;
+    
 }
 .humnav:hover{
     color: #b2b2b2;
@@ -36,6 +37,8 @@
     -ms-overflow-style: none;  
     scrollbar-width: none;
     padding-top: 100px;
+    height: 100%;
+    overflow-y: hidden;
 }
 .netero{
     flex-direction: column;
@@ -112,7 +115,7 @@
     overflow-x: hidden; /* Disable horizontal scroll */
     overflow-y: scroll;
     box-sizing: content-box;
-    padding-right: 17px;
+    padding-right: 170px;
     transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
   }
   
