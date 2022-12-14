@@ -18,7 +18,7 @@ body{
     top: 0px;
     left: 54px;
 }
-.top button{
+.topbut{
     display: flex;
     /* top: 50px; */
     /* padding: 18px 4px; */
@@ -38,6 +38,13 @@ body{
     align-items: center;
     flex-wrap: wrap;
     flex-direction: row;
+}
+.topbut:hover{
+    
+        color: #09021C;
+        background-color:#D4F34A ;
+          
+    
 }
 
 .backimg{
@@ -81,6 +88,11 @@ line-height: 100%;
 }
 
 
+@media(min-width: 695px) and (max-width: 934px){
+    .top h1{
+        font-size:245%;
+    }
+}
 
 
 
@@ -89,7 +101,7 @@ line-height: 100%;
         font-size:161%;
     }
     
-    .top button{
+    .topbut{
         /* top: 50px; */
         /* padding: 18px 04px; */
         background-color: #09021C;
@@ -115,7 +127,7 @@ line-height: 100%;
     .top h1{
         font-size:medium;
     }
-    .top button{
+    .topbut{
      
          width:127px;
          height: 40px;
