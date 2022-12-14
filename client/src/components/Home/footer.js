@@ -1,5 +1,6 @@
 import React from 'react'
 import "./footer.css"
+import { Button } from '@cred/neopop-web/lib/components';
 function Footer() {
   return (
     <footer className="footer">
@@ -22,13 +23,26 @@ function Footer() {
             </h2>
           </div>
           <div className="company__info_text">
-            <p className="footer__title1">E-Cell,IIT Guwahati<br></br> Assam-7810389</p>
+            <p className="footer__title2">E-Cell,IIT Guwahati<br></br> Assam-7810389</p>
             <p className="company__description">
               edc@iitg.ac.in
             </p>
             <p className="company__description">
               +91 7637833974
             </p>
+            <Button
+            variant="primary"
+            kind="elevated"
+            size="big"
+            colorMode="light"
+             colorConfig={{backgroundColor:"#F0E266",borderColor:"black",edgeColors:{right:"#736B1F",bottom:"#736B1F"}}}
+             spacingConfig={{height:"60px"}}
+            onClick={() => {
+                console.log("I'm clicked");
+            }}
+        >
+            {/* {SVG CODE} */}
+    </Button>
 
           </div>
           <div class="right_footer">
