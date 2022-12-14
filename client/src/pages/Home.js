@@ -13,7 +13,7 @@ function Home() {
       {/* Home */}
       <Landing />
       {/*Events */}
-      <Events />
+      {/* <Events /> */}
       {/* Past Speakers*/}
       <PastSpeakers />
 
