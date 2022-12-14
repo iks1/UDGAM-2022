@@ -1,27 +1,27 @@
-#speakers{
-    height:max-content
-}
-.pastSpeaker{
-    height:max-content;
-}
-.top{
+
+/* @font-face {
+    font-family: Founders Grotesk;
+    src: url(Fonts/Test\ Founders\ Grotesk\ Bold\ 700.otf);
+} */
+
+.topallspeaker{
     display:flex; 
     align-items: center;
     justify-content:space-between;
-    
-}
-.currentspeak{
-    overflow-x: hidden;
-}
-.top h1{
-    font-family: 'Space Grotesk', sans-serif;
+ padding-top: 130px;   
+ padding-left: 80px;
+ overflow-x: hidden;}
+.topallspeaker h1{
+    font-family: Founders Grotesk;
     color: #FC97D9;
     font-weight: 700;
     font-size: 64px;
     line-height: 100%;
     letter-spacing: -0.02em;
+}.watchitlive{
+    margin-right: 80px;
 }
-.button{
+.topallspeaker button{
     /* top: 50px; */
     /* padding: 18px 04px; */
     background-color: #09021C;
@@ -35,11 +35,6 @@
      font-weight: 700;
      font-size: 16px;
      line-height: 14px;
-}
-.button:hover{
-    color: #09021C;
-    background-color:#D4F34A ;
-      
 }
 .speakerOdd svg{
     position: relative;
@@ -66,23 +61,28 @@ background-color: #09021C;
 .speaker h1{
     font-family: Action Sans;
     position: absolute;
-    left: 60px;
-    top: 313px;
-    color: wheat;
+    left: 62px;
+    top: 332px;
+    font-size: 40px;
+    color: white;
 }
 .speaker h2{
+    font-size: 32px;
     font-family: Action Sans;
     position: absolute;
-    left: 107px;
-    top: 357px;
-    color: wheat;
+    left: 120px;
+    top: 370px;
+    color:  #DDF140;
+    ;
 }
 .speaker h4{
     font-family: Action Sans;
     position: absolute;
-    left: 86px;
-    top: 390px;
-    color: wheat;
+    left: 94px;
+    top: 401px;
+    font-size: 24px;
+    color:#FC97D9;
+    ;
 }
 
 .speakerOdd img{
@@ -132,28 +132,28 @@ background-color: #09021C;
     width: 300px;
 } */
 
-/*    
-   .title {
-       position: absolute;
-   } */
    
-   /*@font-face {
+
+   
+   /* @font-face {
        font-family: Action Sans;
        src: url(Fonts/ActionSans-Medium.otf);
-   }*/
+   } */
    
-   .title h1 {
+   .pastspeakerstitle {
        font-family: Founders Grotesk;
        width: fit-content;
        font-weight: 700;
        font-size: 64px;
        line-height: 100%;
+       padding-left: 80px;
        letter-spacing: -0.02em;
        color: #44C6B6;
        text-transform: uppercase;
    }
    
    .buttons {
+       position: relative;
        float: right;
        margin-right: 50px;
        margin-top: 50px;
@@ -166,27 +166,20 @@ background-color: #09021C;
        margin: 0 6px;
    }
    
-   .slider {
+   .sliderspeak {
+       margin-top: 50px;
        display: flex;
-       flex-wrap: wrap;
+       flex-wrap: wrap;background: "#09021C"
    }
    
-   .img {
-       margin:0;
-       width:100%;
+   .sliderspeak .img {
+       padding: 0 28px;
    }
-   .img img{
-    margin-left:10%;
-    margin-right:10%;
-    width:80%;
-}
    
-   .img h1 {
+   .sliderspeak .img h1 {
        font-family: Action Sans;
        margin-top: 23px;
        margin-bottom: 0;
-       margin-left:10%;
-       margin-right:10%;
        font-weight: 700;
        font-size: 32px;
        line-height: 110%;
@@ -195,35 +188,30 @@ background-color: #09021C;
        height: 35px;
    }
    
-  .img h3 {
+   .sliderspeak .img h3 {
        font-family: Action Sans;
-       margin: 0;
+       margin-top: 4px;
        font-weight: 500;
        font-size: 24px;
        line-height: 110%;
        letter-spacing: -0.02em;
-       margin-left:10%;
-       margin-right:10%;
        color: #CDCCD0;
        height: 26px;
    }
    
-   .img p {
+   .sliderspeak .img p {
        font-family: Action Sans;
        margin-top: 4px;
        margin-bottom: 36px;
        font-weight: 500;
        font-size: 16px;
        line-height: 110%;
-       margin-left:10%;
-       margin-right:10%;
        letter-spacing: -0.02em;
        color: #6A6771;
        height: 18px;
    }
 
-
-@media(min-width: 470px) and (max-width: 773px){
+@media(min-width: 470px) and (max-width: 600px){
     .top h1{
         font-size:larger;
     }
@@ -239,7 +227,7 @@ background-color: #09021C;
         background-color: #09021C;
         height:20px ;
         color: #D4F34A;
-         width: 160px;
+         width:140px;
          height: 42px;
          border: 1.31218px solid #D4F34A;
          font-family: 'Action Sans';
@@ -328,13 +316,15 @@ background-color: #09021C;
     
 }
 
+.pastspeakerstitle{
+
+}
 
 @media (max-width:470px) {
    .top{
     margin-bottom: 27px;
    }
    .speaker{
-    right: -31px;
    }
    
     .top h1{
@@ -430,6 +420,35 @@ background-color: #09021C;
         }
         .button2 {
             visibility: hidden;
+        }
+.topallspeaker{
+    flex-direction: column;
+    padding-left: 10%;
+    padding-right: 10px;
+}
+        .topallspeaker h1{
+            font-family: Founders Grotesk;
+            color: #FC97D9;
+            font-weight: 700;
+            font-size: xx-large;
+        }
+        .pastspeakerstitle{
+            font-size: xx-large;
+            padding-left: 10%;
+        }
+        .main1{
+            flex-direction: column;
+            align-items: center;justify-content: center;
+        }
+        .speakerOdd svg{
+            position: relative;
+            left: 17%;
+        }
+        .speakerEven svg{
+            position: relative;
+            /* left: -3px; */
+            top: 30px;
+            left: 17%;
         }
 }
 
