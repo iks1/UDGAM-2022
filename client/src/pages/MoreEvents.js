@@ -25,7 +25,7 @@ import Vector3 from "./../icons/Vector3.svg";
 import workshops from "./../icons/workshops.svg";
 import "./moreEvents.css";
 
-const moreEvents =()=>
+const MoreEvents =()=>
 {   
     let events = [
         {
@@ -113,7 +113,7 @@ const moreEvents =()=>
     
     ];
     
-    const render =()=>
+    const render =(event)=>
     {
         // reset the prev click effect
         var one = document.getElementsByClassName('one')[0];
@@ -146,7 +146,6 @@ const moreEvents =()=>
         });
     
         // new click effect
-        console.log(event.srcElement.id);
         event.srcElement.parentNode.style.color = "#D4F34A";
         event.srcElement.parentNode.parentNode.style.backgroundColor = "#2D1373";
         var parent = event.srcElement.parentNode.parentNode;
@@ -318,7 +317,7 @@ const moreEvents =()=>
             </div>
             <div class="two">
                 <div class="box">
-                    <img src={ls} alt="" class="img"/>
+                    <img src={ls} alt="" class="imgevent"/>
                     <div class="boxHeading">
                         <div class="icon"><img src={Logo} alt=""/></div>
                         <div class="headingText">
@@ -454,3 +453,5 @@ const moreEvents =()=>
     </div>
     );
 }
+
+export default MoreEvents

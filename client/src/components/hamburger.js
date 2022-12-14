@@ -15,9 +15,9 @@ function Hamburger() {
                 <div className="row biro">
                     <div className="col-lg-6 col-sm-12">
                         <div className="gon">
-                            <a href="/events" className="nav-item humnav">Events </a>
-                            <a href="/events" className="nav-item humnav">Schedule </a>
-                            <a href="/#merch" className="nav-item humnav">merch </a>
+                        <div> <a href="/events" className="nav-item humnav">Events </a></div>
+                            <div> <a href="/events" className="nav-item humnav">Schedule </a></div>
+                            <div><a href="/#merch" className="nav-item humnav">merch </a></div>
                         </div>
                         <div className="CoC">Lost the pass you bought? We got you covered.</div>
                         <div><br /><input className="input_pass" placeholder="Enter Your Mail..." /></div>
