@@ -137,3 +137,19 @@ body{
 /*speakers*/
 
 
+@media(max-width:600px){
+
+   .nav-links{
+    display: none;
+   }
+   .yellowButtonParent{
+    display: none;
+   }
+   .navbar{
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+   }
+
+}

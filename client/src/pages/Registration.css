@@ -80,11 +80,11 @@
     display: flex;
     letter-spacing: 0.2px;
   text-transform: uppercase;
-  
-  } 
+
+  }
 .card_of_pass_register {
     position: relative;
-    
+
 }
 .pass_Card_register{
     margin: 10px;
@@ -243,4 +243,25 @@
             flex-direction: column;
 padding-top: 320px;
         }
+        .pass_Card_register{
+            position: absolute;
+            top: 900px;
+            left: 15px;
+        }
+        .cardphoto{
+            width:340px;
+            
+        }
+        .udgam7{
+            position: absolute;
+            left: 280px;
+        }
+        .Pinfo{
+            font-size: 30px;
+        }
+        .alpha{
+            position: absolute;
+            left: 50px;
+        }
+    
     }

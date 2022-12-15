@@ -105,7 +105,7 @@ function Registration() {
           </div>
           <br />
           <div className="card_of_pass_register">
-            <img src={require("../icons/udgamPassBG.png")} alt="CardBG"></img>
+            <img className='cardphoto' src={require("../icons/udgamPassBG.png")} alt="CardBG"></img>
             <img className="udgam7" src={Vector3} />
 
             <p className="alpha">Udgam pass</p>

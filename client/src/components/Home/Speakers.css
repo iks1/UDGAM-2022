@@ -10,15 +10,18 @@
     justify-content:space-between;
     
 }
+.currentspeak{
+    overflow-x: hidden;
+}
 .top h1{
-    font-family: Founders Grotesk;
+    font-family: 'Space Grotesk', sans-serif;
     color: #FC97D9;
     font-weight: 700;
     font-size: 64px;
     line-height: 100%;
     letter-spacing: -0.02em;
 }
-.top button{
+.button{
     /* top: 50px; */
     /* padding: 18px 04px; */
     background-color: #09021C;
@@ -32,6 +35,11 @@
      font-weight: 700;
      font-size: 16px;
      line-height: 14px;
+}
+.button:hover{
+    color: #09021C;
+    background-color:#D4F34A ;
+      
 }
 .speakerOdd svg{
     position: relative;
@@ -214,7 +222,8 @@ background-color: #09021C;
        height: 18px;
    }
 
-@media(min-width: 470px) and (max-width: 600px){
+
+@media(min-width: 470px) and (max-width: 773px){
     .top h1{
         font-size:larger;
     }
@@ -230,7 +239,7 @@ background-color: #09021C;
         background-color: #09021C;
         height:20px ;
         color: #D4F34A;
-         width:140px;
+         width: 160px;
          height: 42px;
          border: 1.31218px solid #D4F34A;
          font-family: 'Action Sans';
