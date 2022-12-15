@@ -4,6 +4,8 @@
     font-family: sans-serif;
     font-size: 1.6rem;
     background-color: #1E1E1E;
+    display: flex;
+    flex-direction: column;
 }
 i {
     font-size: 2.4rem;
@@ -23,7 +25,20 @@ i {
     top:5rem;
     background-color: #D9D9D9;
 }
-
+.input_pass{
+    width: 330px;
+    height: 60px;
+    border-color: black ;
+    box-shadow: 9px 9px 3px 2px black;
+    box-shadow: 8px 8px 2px 1px  #736B1F;
+    padding-left: 24px;
+}
+@media (max-width: 800px){
+    .footer__top{
+       display: flex;
+       flex-direction: column;
+    }
+    }
 .footer__top {
     display: flex;
     justify-content: space-between;
@@ -35,7 +50,19 @@ i {
     font-weight: 700;
    
 }
-.footer__title1{
+.input_pass5{
+    width: 330px;
+    height: 60px;
+    border-color: black ;
+    box-shadow: 9px 9px 3px 2px black;
+    box-shadow: 8px 8px 2px 1px  #736B1F;
+    padding-left: 24px;
+}
+.brrr{
+    display: flex;
+    flex-direction: row;
+}
+.footer__title2{
     font-size: 1.5rem;
     color: #fff;
     font-weight: 700;
@@ -104,7 +131,7 @@ color: #F0E266;
     font-style: normal;
     font-weight: 500;
     font-size: 13.5px;
-    line-height: 24px;
+    line-height: 1.7rem;
    
     
     letter-spacing: -0.02em;
