@@ -1,4 +1,12 @@
 /* navbar*/
+@font-face {
+    font-family: font1;
+    src: url(./../../fonts/FoundersGrotesk-Bold.otf);
+}
+@font-face {
+    font-family: font2;
+    src: url(./../../fonts/ActionSans-Medium.otf);
+}
 
 body{
     background-color:#0c0227;
@@ -50,7 +58,7 @@ body{
     font-weight:700px;
     font-weight:bold;
     color: white;
-    font-family: 'Open Sans', sans-serif;
+    font-family: font2,'Open Sans', sans-serif;
 }
 
 
@@ -80,7 +88,7 @@ body{
     margin-top: 17px;
     width: 87px;
     height:18px;
-    font-family: 'Open Sans', sans-serif;
+    font-family:font2, 'Open Sans', sans-serif;
 
 }
 .yellow-button img{

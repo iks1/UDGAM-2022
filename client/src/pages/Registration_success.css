@@ -1,3 +1,12 @@
+@font-face {
+    font-family: font1;
+    src: url(./../fonts/FoundersGrotesk-Bold.otf);
+}
+@font-face {
+    font-family: font2;
+    src: url(./../fonts/ActionSans-Medium.otf);
+}
+
 .fstbtnsuccess {
 
     /* top: 50px; */
@@ -9,7 +18,7 @@
     width: 276px;
     height: 56px;
     border: 2.31218px solid #09021C;
-    font-family: 'Action Sans';
+    font-family:font2, 'Action Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -29,7 +38,7 @@
     width: 276px;
     height: 56px;
     border: 2.31218px solid #D4F34A;
-    font-family: 'Action Sans';
+    font-family: font2,'Action Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -107,7 +116,7 @@
     width: 265px;
     height: 38px;
 
-    font-family: 'Action Sans';
+    font-family: font2,'Action Sans';
     font-style: normal;
     font-weight: 500;
     font-size: 32px;
@@ -129,7 +138,7 @@
     width: 150px;
     height: 19px;
 
-    font-family: 'Action Sans';
+    font-family: font2,'Action Sans';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;

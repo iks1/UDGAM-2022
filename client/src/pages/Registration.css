@@ -1,3 +1,13 @@
+@font-face {
+    font-family: font1;
+    src: url(./../fonts/FoundersGrotesk-Bold.otf);
+}
+@font-face {
+    font-family: font2;
+    src: url(./../fonts/ActionSans-Medium.otf);
+}
+
+
 .first_last_flex {
     display: flex;
     width: 100%;
@@ -94,7 +104,7 @@
     position: absolute;
     top: 29px;
     left: 68px;
-    font-family: Action Sans;
+    font-family: font2,Action Sans;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -111,7 +121,7 @@
     position: absolute;
     top: 121.5px;
     left: 42px;
-    font-family: 'Action Sans';
+    font-family:font2, 'Action Sans';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -153,7 +163,7 @@
     position: absolute;
     top: 112px;
     left: 148px;
-    font-family: Action Sans;
+    font-family: font2,Action Sans;
     font-style: normal;
     font-weight: 500;
     font-size: 32px;
@@ -170,7 +180,7 @@
     position: absolute;
     top: 168px;
     left: 160px;
-    font-family: Action Sans;
+    font-family: font2,Action Sans;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -214,7 +224,7 @@
     background: #D4F34A;
     justify-content: center;
     align-items: center;
-    font-family: Action Sans;
+    font-family:font2, Action Sans;
     font-style: normal;
     font-weight: 700;
     font-size: 14.4317px;
@@ -228,7 +238,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: Action Sans;
+    font-family:font2, Action Sans;
     font-style: normal;
     font-weight: 700;
     font-size: 14.4317px;

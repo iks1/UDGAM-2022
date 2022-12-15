@@ -1,3 +1,12 @@
+@font-face {
+    font-family: font1;
+    src: url(./../fonts/FoundersGrotesk-Bold.otf);
+}
+@font-face {
+    font-family: font2;
+    src: url(./../fonts/ActionSans-Medium.otf);
+}
+
 .teamrow{
     padding:20px 0;
 }
@@ -15,7 +24,7 @@
 }
 
 .topallmembers h1{
-    font-family: 'Space Grotesk', sans-serif;
+    font-family:font1, 'Space Grotesk', sans-serif;
     color: #FC97D9;
     font-weight: 700;
     font-size: 64px;
@@ -40,18 +49,18 @@ padding-bottom: 10px;
     top:0px
     }
 .memberteam h1{
-    font-family: Action Sans;
+    font-family: font2;
     font-size: 40px;
     color: white;
 }
 .memberteam h2{
     font-size: 32px;
-    font-family: Action Sans;
+    font-family:font2;
     color:  #DDF140;
     
 }
 .memberteam h4{
-    font-family: Action Sans;
+    font-family:font2, Action Sans;
     font-size: 24px;
     color:#FC97D9;
     
@@ -82,18 +91,18 @@ padding-bottom: 10px;
         font-size: xx-large;
     }
     .memberteam h1{
-        font-family: Action Sans;
+        font-family:font2, Action Sans;
         font-size: 32px;
         color: white;
     }
     .memberteam h2{
         font-size: 24px;
-        font-family: Action Sans;
+        font-family:font2, Action Sans;
         color:  #DDF140;
         ;
     }
     .memberteam h4{
-        font-family: Action Sans;
+        font-family:font2, Action Sans;
         font-size: 16px;
         color:#FC97D9;
         ;

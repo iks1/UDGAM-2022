@@ -1,4 +1,11 @@
-
+@font-face {
+    font-family: font1;
+    src: url(./../fonts/FoundersGrotesk-Bold.otf);
+}
+@font-face {
+    font-family: font2;
+    src: url(./../fonts/ActionSans-Medium.otf);
+}
 .sponsorpage{
     background-color: #09021C;
     height: fit-content;
@@ -7,7 +14,7 @@
     background-color: #09021C;
 }
 .sponsorbox h1{
-    font-family: Founders Grotesk;
+    font-family:font1, Founders Grotesk;
     color: #FC97D9;
     font-weight: 700;
     font-size: 64px;
@@ -19,7 +26,7 @@
 }
 
 .title-sponsor h3{
-    font-family: Action Sans;
+    font-family: font2,Action Sans;
     color: #FC97D9;
     font-weight: 400;
     font-size: 32px;
@@ -53,7 +60,7 @@
 }
 
 .associate-title h3 {
-    font-family: Action Sans;
+    font-family:font2, Action Sans;
     color: #FC97D9;
     font-weight: 400;
     font-size: 24px;
@@ -85,7 +92,7 @@
 }
 
 .partners h3 {
-    font-family: Action Sans;
+    font-family: font2,Action Sans;
     color: #FC97D9;
     font-weight: 400;
     font-size: 32px;
@@ -103,7 +110,7 @@
 }
 
 .text-button h1{
-    font-family: Founders Grotesk;
+    font-family: font1,Founders Grotesk;
     color: #FFFFFF;
     font-weight: 700;
     font-size: 96px;
@@ -119,7 +126,7 @@
     width: 324px;
     height: 80px;
     background-color: #F0E266;
-    font-family: Action Sans Bold;
+    font-family:font2, Action Sans Bold;
     font-weight: 700;
     font-size: 24px;
     text-transform: uppercase;

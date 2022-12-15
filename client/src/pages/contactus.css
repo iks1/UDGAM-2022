@@ -1,3 +1,12 @@
+@font-face {
+    font-family: font1;
+    src: url(./../fonts/FoundersGrotesk-Bold.otf);
+}
+@font-face {
+    font-family: font2;
+    src: url(./../fonts/ActionSans-Medium.otf);
+}
+
 .side_box{
 
     padding-top: 12.5rem;
@@ -21,7 +30,7 @@
     flex-direction: column;
 }
 .hello{
-    font-family:  sans-serif;
+    font-family: font1, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 4.25rem;
@@ -78,7 +87,7 @@
     width: 70.8%;
 }
 .mikasa{
-    font-family: 'Action Sans';
+    font-family:font2, 'Action Sans';
     font-style: normal;
     font-weight: 20;
     font-size: 0.875rem;
