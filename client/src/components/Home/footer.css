@@ -35,10 +35,12 @@ i {
     box-shadow: 8px 8px 2px 1px  #736B1F;
     padding-left: 24px;
 }
-@media (max-width: 800px){
+@media (max-width: 900px){
     .footer__top{
        display: flex;
        flex-direction: column;
+       justify-content: center;
+       align-items: center;
     }
     }
 .footer__top {

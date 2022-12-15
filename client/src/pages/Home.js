@@ -5,18 +5,19 @@ import PastSpeakers from '../components/Home/Speakers_PastSpeak';
 import BuyMerch from '../components/Home/BuyMerch';
 import GetTicket from '../components/Home/GetTicket';
 import Footer from '../components/Home/footer';
+import Schedule from '../components/Home/Schedule';
 
 function Home() {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       {/* Home */}
       <Landing />
       {/*Events */}
       {/* <Events /> */}
       {/* Past Speakers*/}
       <PastSpeakers />
-
+      <Schedule/>
       {/* Merch*/}
       <BuyMerch />
       {/* Get Ticket*/}

@@ -6,7 +6,7 @@ body{
 }
 .header{
     
-    background-color:#19034beb;
+    
     width:100%;
     top:0;
     left:0;
@@ -152,5 +152,7 @@ body{
     margin-left: 10%;
     margin-right: 10%;
    }
+   
+
 
 }

@@ -42,12 +42,9 @@ function Registration() {
     }
 
   }
-  return (<body style={{ height: "150vh" }}>
-    <Navbar />
-
-
-
-
+  return (
+      <body style={{ height: "150vh" }}>
+      <Navbar />
       <div className='register_entire_page'>
 
         <div className="register_dabba">
@@ -134,6 +131,7 @@ function Registration() {
 
         </div>
       </div>
+      
   </body>
   )
 

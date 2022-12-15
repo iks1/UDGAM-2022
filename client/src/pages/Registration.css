@@ -1,3 +1,4 @@
+
 .first_last_flex {
     display: flex;
     width: 100%;
@@ -238,10 +239,11 @@
     height: 40px;
     }
 
-    @media (max-width: 600px){
+    @media (max-width: 900px){
         .register_entire_page {
             flex-direction: column;
-padding-top: 320px;
+            padding-top: 320px;
+            justify-content: center;
         }
         .pass_Card_register{
             position: absolute;
