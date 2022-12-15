@@ -25,9 +25,9 @@ function OurTeam() {
         // document.getElementById("img1").src = "assets/img/Close.svg";
         var x = document.getElementById("img123");
         console.log(Downicon);
-        
 
-        if (x.src == {Downicon}) {
+
+        if (x.src == { Downicon }) {
             console.log("Imrunning in");
             x.src = Closeicon
         }
@@ -150,7 +150,7 @@ function OurTeam() {
                         <h2>Lecture Series Head</h2>
                         <h4>Udgam</h4>
                     </div>
-                    
+
 
                 </div>
                 <div className='row teamrow'>
@@ -169,7 +169,7 @@ function OurTeam() {
                         <h2>Initiatives Head</h2>
                         <h4>Udgam</h4>
                     </div>
-                    
+
                     <div className='memberteam col-lg-3'>
                         <div className='imgteam'>
                             <svg width="303" height="333" viewBox="0 0 303 333" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -205,7 +205,7 @@ function OurTeam() {
 
                 </div>
                 <div className='row teamrow'>
-                <div className='memberteam col-lg-6'>
+                    <div className='memberteam col-lg-6'>
                         <div className='imgteam'>
                             <svg width="303" height="333" viewBox="0 0 303 333" fill="none" xmlns="http://www.w3.org/2000/svg">
 
@@ -235,30 +235,35 @@ function OurTeam() {
                         <h2>Design Head</h2>
                         <h4>Udgam</h4>
                     </div>
-                    
+
 
                 </div>
 
-{/* 
-                <p
-                    className="d-flex justify-content-end flex-wrap justify-content-md-end justify-content-xl-end justify-content-xxl-end executive-div"
-                >
-                    <button
-                        id="btn1"
-                        onClick={myFunction}
-                        style={{backgroundColor: "#fc97d9", borderStyle: "none", height: "58px"}}
-                        className="btn btn-primary btnfirst"
-                        type="button"
-                        data-toggle="collapse"
-                        data-target="#collapseExample"
-                        aria-expanded="false"
-                        aria-controls="collapseExample"
-                    >
 
-                        <img id="img123" src={Downicon} />
-                    </button>
-                </p>
-                <div  className="collapse-executive collapse" id="collapseExample">
+                {/* <div
+                    className=" executive-div"
+                >
+                    <div className='Teamnamediv'>
+
+
+                        <span className="Teamname" style={{ color: "black" }}>DESIGN</span>
+                        <button
+                            id="btn1"
+                            onClick={myFunction}
+                            style={{ backgroundColor: "#fc97d9", borderStyle: "none", height: "58px" }}
+                            className="btn btn-primary btnfirst"
+                            type="button"
+                            data-toggle="collapse"
+                            data-target="#collapseExample"
+                            aria-expanded="false"
+                            aria-controls="collapseExample"
+                        >
+
+                            <img id="img123" src={Downicon} />
+                        </button>
+                    </div>
+                </div>
+                <div className="collapse-executive collapse" id="collapseExample">
                     <div className="d-flex">
                         <div className="card card-body collapse-executive-text">
                             Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
