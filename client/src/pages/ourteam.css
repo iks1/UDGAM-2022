@@ -3,6 +3,9 @@
 }
 .teampage{
     overflow-x: hidden;
+    background: linear-gradient(to bottom, #1A074E 0%, #060213 100%);
+ 
+    background-size: cover;
 }
 .topallmembers{
     display:flex; 
@@ -63,8 +66,16 @@ padding-bottom: 10px;
 .imgteam .teammembg {
     border: 0;
     position: absolute;
-    top: 21px;
-    left: 28px;
+    top: 13px;
+    left: 29px;
+    width: 196px;
+    border-radius: 324px;
+} 
+.imgteam .umangpic {
+    border: 0;
+    position: absolute;
+    top: 41px;
+    left: 27px;
     width: 196px;
     border-radius: 324px;
 } 
@@ -75,8 +86,56 @@ padding-bottom: 10px;
     left: 150px;
 } 
 
+.executive-div{
+    width: 1199px;
+    height: 67px;
+    margin-left: 120px;
+    background: #fc97d9;
+    border: 2px solid #000000;
+    text-align: center;
+   
+}
+.collapse-executive{
+    height: 349px;
+    background: #ddf140;
+    padding: 11px 40px;
+    padding-top: 11px;
+    padding-right: 40px;
+    padding-bottom: 11px;
+    padding-left: 40px;
+    margin-top: 26px;
+    margin-left: 120px;
+    width: 1199px;
+}
 
+.collapse-executive-text{
+    width: 434px;
+    margin-top: 0px;
+    height: 322px;
+    background: #000000;
+    margin-right: 0;
+    margin-left: 17px;
+}
 
+.collapse-executive-img{
+    width: 645px;
+    height: 296px;
+    margin-top: 13px;
+    background: #000000;
+    margin-left: 9px;
+}
+.Teamname{
+    font-size: 24px;
+    font-weight: 700;
+    padding: 0 auto;
+}
+.Teamnamediv{
+    text-align: center;
+    margin: auto 0;
+}
+#btn1{
+    float: right;
+}
 @media (max-width: 600px){
     .topallmembers h1{
         font-size: xx-large;
