@@ -11,11 +11,11 @@ function Contactus() {
         <div className="row euro">
           <div className="col-lg-8 col-sm-12">
             <div className="container-fluid mt-3 boat">
-              <a className="hello">Contact Us </a>
-              <a className="names" >
+              <div className="hello">Contact Us </div>
+              <div className="names" >
                 <input type="text" className="first_name" placeholder="First name..." />
                 <input type="text" className="last_name" placeholder="Last name..." />
-              </a>
+              </div>
               <p className="email_input">
                 <input type="email" className="mail_input" placeholder="Type your mail..." />
               </p>
@@ -29,9 +29,9 @@ function Contactus() {
                 </select>
 
               </form>
-              <a className="aot">
+              <div className="aot">
                 <textarea type="text" className="Eren" placeholder="Any message for us?..." />
-              </a>
+              </div>
               <br />
               <div className="submit_contactus">
               <Button
