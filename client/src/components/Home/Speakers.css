@@ -1,3 +1,15 @@
+@font-face {
+    font-family: Founders Grotesk;
+    src: url(./../../fonts/FoundersGrotesk-Bold.otf);
+}
+@font-face {
+    font-family: Action Sans;
+    src: url(./../../fonts/ActionSans-Medium.otf);
+}
+#root{
+   font-family: Founder Grotesk,Action Sans;
+}
+
 #speakers{
     height:max-content
 }
@@ -14,7 +26,7 @@
     overflow-x: hidden;
 }
 .top h1{
-    font-family: 'Space Grotesk', sans-serif;
+    font-family: Founders Grotesk ,'Space Grotesk', sans-serif;
     color: #FC97D9;
     font-weight: 700;
     font-size: 64px;
@@ -30,7 +42,7 @@
      width:140px;
      height: 42px;
      border: 1.31218px solid #D4F34A;
-     font-family: 'Action Sans';
+     font-family: Action Sans ,'Action Sans';
      font-style: normal;
      font-weight: 700;
      font-size: 16px;
@@ -242,7 +254,7 @@ background-color: #09021C;
          width: 160px;
          height: 42px;
          border: 1.31218px solid #D4F34A;
-         font-family: 'Action Sans';
+         font-family:Action Sans, 'Action Sans';
          font-style: normal;
          font-weight: 700;
          font-size: 16px;

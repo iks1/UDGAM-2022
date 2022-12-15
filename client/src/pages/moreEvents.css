@@ -1,3 +1,12 @@
+@font-face {
+    font-family: font1;
+    src: url(./../fonts/FoundersGrotesk-Bold.otf);
+}
+@font-face {
+    font-family: font2;
+    src: url(./../fonts/ActionSans-Medium.otf);
+}
+
 *{
     padding:0px;
     margin:0;
@@ -14,7 +23,7 @@
     font-weight: 700;
     font-size: 64px;
     line-height: 77px;
-    font-family: 'Space Grotesk' ;
+    font-family: font1,'Space Grotesk' ;
     margin-bottom: 68px;
 }
 
@@ -56,7 +65,7 @@
     font-size: 40px;
     line-height: 100%;
     color: #383542;
-    font-family: 'Space Grotesk'; 
+    font-family:font1, 'Space Grotesk'; 
     margin:26px 20px 8px 20px;
     display: flex;
     flex-direction: row;
@@ -82,7 +91,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
-    font-family: sans-serif;
+    font-family:font2, sans-serif;
     color: #6A6771;
 }
 
@@ -119,7 +128,7 @@
     flex-direction: column;
     color:white;
     background-color: #2D1373;
-    font-family: 'Space Grotesk';
+    font-family:font1, 'Space Grotesk';
 }
 
 #head
@@ -170,7 +179,7 @@
     font-weight: 700;
     font-size: 13px;
     line-height: 16px;
-    font-family: sans-serif;
+    font-family: font2,sans-serif;
 }
 
 #register img
@@ -230,7 +239,7 @@
     display: flex;
     flex-direction: column;
     color:#FAF9FF;
-    font-family: 'Space Grotesk';
+    font-family:font1, 'Space Grotesk';
 }
 
 .boxHeading img

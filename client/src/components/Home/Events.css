@@ -1,3 +1,13 @@
+@font-face {
+    font-family: font1;
+    src: url(./../../fonts/FoundersGrotesk-Bold.otf);
+}
+@font-face {
+    font-family: font2;
+    src: url(./../../fonts/ActionSans-Medium.otf);
+}
+
+
 #container{
     background-image: url(../../icons/eventsBG.png);
     display: flex;
@@ -29,7 +39,7 @@
     font-weight: 700;
     font-size: 64px;
     line-height: 100%;
-    font-family: 'Space Grotesk', sans-serif;
+    font-family:font1, 'Space Grotesk', sans-serif;
     
     height: fit-;
 }
@@ -82,7 +92,7 @@
 }
 
 .count, .heading{
-    font-family: 'Space Grotesk', sans-serif;
+    font-family:font1, 'Space Grotesk', sans-serif;
     font-weight: 1000;
     font-size: 40px;
     line-height: 100%;
@@ -113,7 +123,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
-    font-family: 'Space grotesk';
+    font-family: font1,'Space grotesk';
     margin: 24px 24px 28.5px 0;
 }
 
@@ -188,7 +198,7 @@
     line-height: 22px;
     margin: 29px 68px;
     color: #1C1C1C;
-    font-family: sans-serif;
+    font-family:font2, sans-serif;
 }
 
 .pass img{
@@ -209,7 +219,7 @@
     font-size: 16.8576px;
     line-height: 20px;
     color: rgba(255, 255, 255, 0.39);
-    font-family: sans-serif;
+    font-family: font2,sans-serif;
     margin-bottom: 7px;
 
 }
@@ -218,7 +228,7 @@
     font-weight: 500;
     font-size: 44.9535px;
     line-height: 53px;
-    font-family: sans-serif;
+    font-family:font2, sans-serif;
     color:#DDF140;
 }
 
@@ -228,7 +238,7 @@
     font-size: 28.0959px;
     line-height: 33px;
     color: #F0F0F0;
-    font-family: sans-serif;
+    font-family:font2, sans-serif;
 
 }
 
@@ -269,7 +279,7 @@
     font-weight: 500;
     font-size: 15.4528px;
     line-height: 24px;
-    font-family: sans-serif;
+    font-family:font2, sans-serif;
     
 }
 

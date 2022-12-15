@@ -1,7 +1,14 @@
-
+@font-face {
+    font-family: font1;
+    src: url(./../../fonts/FoundersGrotesk-Bold.otf);
+}
+@font-face {
+    font-family: font2;
+    src: url(./../../fonts/ActionSans-Medium.otf);
+}
 
 .footer_body {
-    font-family: sans-serif;
+    font-family: font2,sans-serif;
     font-size: 1.6rem;
     background-color: #1E1E1E;
 }
@@ -58,7 +65,7 @@ i {
   
     color: #fff;
     font-weight: 700;
-    font-family: 'Founders Grotesk';
+    font-family:font1, 'Founders Grotesk';
     font-style: normal;
     font-size: 2.5rem;
     letter-spacing: -0.02em;
@@ -70,7 +77,7 @@ i {
     text-decoration: none;
     color: inherit;
     transition: color .25s;
-    font-family: 'Action Sans';
+    font-family:font2, 'Action Sans';
 font-style: normal;
 font-weight: 400;
 position: relative;
@@ -100,7 +107,7 @@ color: #F0E266;
     white-space: nowrap;
 }
 .terms_items{
-    font-family: 'Action Sans';
+    font-family: font2,'Action Sans';
     font-style: normal;
     font-weight: 500;
     font-size: 13.5px;
