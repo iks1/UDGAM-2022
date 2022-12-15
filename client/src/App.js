@@ -15,7 +15,7 @@ import Sponsors from './pages/sponsors';
 import OurTeam from './pages/ourteam';
 function App() {
   return (
-    <body  >
+    <body style={{overscrollBehavior:'none'}} >
     <Router>
     <Routes>
       <Route exact path='/' element={<Home/>}/>

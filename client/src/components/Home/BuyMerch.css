@@ -3,6 +3,9 @@ body{
     background-color: black;
     height: 50rem;
 }
+.merch{
+    margin-top: -22px;
+}
 
 .top{
     display:flex; 
