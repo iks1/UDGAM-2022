@@ -67,10 +67,13 @@ i {
     flex-direction: row;
 }
 .footer__title2{
-    font-size: 1.5rem;
-    color: #fff;
+    font-family: Action Sans;
+    font-size: 20px;
     font-weight: 700;
-   margin-top: 1.5rem; 
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    
 }
 .footer__list-item1{
     background-color: #736B1F;
@@ -83,34 +86,25 @@ i {
     height: 4.3rem;
 }
 .right_footer{
-    display: flex;flex-direction: column;justify-content: space-around;
+    display: flex;flex-direction: column;justify-content: center;
 }
 .dontmissmagic{
-  
-    color: #fff;
+    font-family: Founders Grotesk;
+    font-size: 35px;
     font-weight: 700;
-    font-family: 'Founders Grotesk';
-    font-style: normal;
-    font-size: 2.5rem;
+    line-height: 24px;
     letter-spacing: -0.02em;
-    margin-left: 2rem;
-    white-space: nowrap;
-    color: #F0E266;
+    text-align: right;
+    color: #F0E266;  
 }
 .signup {
-    text-decoration: none;
-    color: inherit;
-    transition: color .25s;
-    font-family: 'Action Sans';
-font-style: normal;
-font-weight: 400;
-position: relative;
-top: 1rem;
-font-size: 1.25rem;
-
-letter-spacing: -0.02em;
-
-
+    font-family: Action Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+    text-align: right;
+    
 
 color: #F0E266;
 }
@@ -159,4 +153,12 @@ color: #F0E266;
 }
 .company__info_text{
 padding: 20px;
+}
+.company__description{
+font-family: Action Sans;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: -0.02em;
+text-align: left;
 }

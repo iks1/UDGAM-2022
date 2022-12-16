@@ -1,4 +1,4 @@
-#container{
+#containerevent{
     background-image: url(../../icons/eventsBG.png);
     display: flex;
     flex-direction: column;
@@ -34,26 +34,38 @@
     height: fit-;
 }
 
-#moreEvents button{
-    height:60px;
+.topbutevent{
+    display: flex;
+    /* top: 50px; */
+    /* padding: 18px 4px; */
+    background-color: #09021C;
+    height: 20px;
+    color: #D4F34A;
+    justify-content: space-evenly;
+    width: 222px;
+    height: 44px;
+    border: 1.31218px solid #D4F34A;
+    font-family: 'Action Sans';
+    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 14px;
-    padding-left: 47px;
-    padding-right: 47px;
-    padding-top: 15px;
-    padding-bottom: 10px;
-    color: #DDF140;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    align-content: center;
     align-items: center;
-    background-color: transparent;
-    border: 2px solid #DDF140 ;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-decoration: none;
+}
+.topbutevent:hover{
+    
+        color: #09021C;
+        background-color:#D4F34A ;
+          
+    
 }
 
-#moreEvents button img{
-    padding-left:12px;
+#moreEvents {
+    text-decoration: none;
 }
 
 #down{
@@ -70,7 +82,7 @@
     margin-bottom: 60px;
 }
 
-.container
+.containerevent
 {
     background-color: #FAF9FE;
     color: #383542;
@@ -96,7 +108,7 @@
 .count p{
     margin: 32px 24px 0 24px;
 }
-.content
+.content2
 {
     width:602px;
 }
@@ -142,7 +154,7 @@
     margin-right:24px ;
 }
 
-.live{
+.live1{
     background-color: #DDF140;
     width: 164px;
     height: 29px;
@@ -234,16 +246,7 @@
 
 .buyPass button
 {
-    width: 269px;
-    height: 60px;
-    margin: 0 74px 50px 69px;
-    background-color: #DDF140;
-    color:#000000;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 100%;
-    border: 4px solid #000000;
-    box-shadow: 8px 8px 0  #FC97D9, 8px 8px 0 3.5px #000000;
+    text-align: center;
     
 }
 
@@ -251,12 +254,9 @@
     margin-left: 12px;
 }
 
-.buyPass p{
-    display: flex;
-    flex-direction: row;
-    margin: 20px 77px;
-    align-items: center;
-    width: 102px;
+.buttonwrappass{
+    text-align: center;
+    padding-bottom: 20px;
 }
 
 .time{
@@ -292,4 +292,105 @@
 #barcode img
 {
     margin: 16px 102px;
+}
+
+@media (max-width: 600px){
+    .containerevent
+    {
+height: max-content;
+        width:100%;
+    }
+    #containerevent{
+        padding: 0 10%;
+    }
+    #up{
+        flex-direction: column;
+    }
+    #heading
+{
+    color: #DDF140;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100%;
+    font-family: 'Space Grotesk', sans-serif;
+    
+    height: fit-;
+}#udgamPass{
+    width:100%;
+}
+#events{
+    width: 100%;
+}
+.count{
+    font-size: x-large;
+    width: fit-content;
+}
+.count, .heading {
+    font-weight: 1000;
+    font-size: x-large;
+    margin-right:0 ;
+    margin-left: 0;
+    padding: 0;
+    width: 100%;
+}
+.count{
+    width: 5%;
+}
+.content2{
+    padding: 0;
+    width: 95%;
+    margin: 0;
+}
+.heading{
+    padding-right: 10px;
+}
+.register{
+    padding-bottom: 24px;
+}
+.reg{
+    font-size: large;
+}
+.count p {
+  visibility: hidden;;
+}
+.pass{
+    width: 100%;
+}
+.buyPass,#barcode{
+    width: 100%;
+}
+.pass p{
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 16%;
+}
+.pass img{
+    margin-right: 0;
+    padding-right: 4%;
+}
+.time{
+    width: auto;
+    height: auto;
+}
+.time img {
+    margin: 0 11px 0 0px;
+}
+.time{
+    justify-content: center;
+    font-size: larger;
+}#barcode img {
+    margin: 16px auto ;
+    width: 80%;
+    margin-left:10% ;
+    margin-right: 10%;
+}
+
+#priceDate {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.price,.date{
+    font-size: xx-large;
+}
+
 }

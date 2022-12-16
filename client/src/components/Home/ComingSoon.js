@@ -1,7 +1,7 @@
 import React from 'react'
 import './Schedule.css'
 
-function Schedule() {
+function ComingSoon() {
   return (
     <div id='schedule' className='schedule'>
        <h1>COMMING SOON</h1>
@@ -9,4 +9,4 @@ function Schedule() {
   )
 }
 
-export default Schedule
+export default ComingSoon
