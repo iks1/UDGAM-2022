@@ -50,7 +50,7 @@ function Navbar() {
 
           <div className='second-container'>
             <ul className='nav-links'>
-              <li className='nav-item' id="bignav1"><a href='#container'>Events</a></li>
+              <li className='nav-item' id="bignav1"><a href='/events'>Events</a></li>
               <li className='nav-item' id="bignav2"><a href='#schedule'>Schedule</a></li>
               <li className='nav-item' id="bignav3"><a href='#merch'>Merch</a></li>
             </ul>

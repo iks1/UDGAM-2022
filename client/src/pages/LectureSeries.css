@@ -37,6 +37,17 @@
     width:100%;
     
 }
+.lectureseries
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #2D1373;
+    border: 1px solid #383542;
+}
+.lectureseries .lec{
+    color: #D4F34A;
+}
 
 .containerM
 {
