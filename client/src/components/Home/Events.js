@@ -10,7 +10,17 @@ import Vector3 from "../../icons/Vector3.svg";
 import "./Events.css"; import { Link } from 'react-router-dom';
 import { Button } from '@cred/neopop-web/lib/components';
 function Events() {
+    const renderer = ({ days, hours, minutes, seconds, completed }) => {
+        if (completed) {
+          // Render a completed state
+          return <span>Registration closed</span>;
+        } else {
+          // Render a countdown
+          return <span>{days} days: {hours} hr: {minutes} min</span>;
+        }
+      };
     return (
+
         <div id="containerevent" >
             <div id="up">
                 <div id="heading">

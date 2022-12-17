@@ -16,6 +16,7 @@
     line-height: 77px;
     font-family: 'Space Grotesk' ;
     margin-bottom: 68px;
+    margin-left: 60px;
 }
 
 #eventmainContainer
@@ -104,8 +105,8 @@
 
 .live2
 {
-    font-weight: 400;
     background-color: #DDF140;
+    font-weight: 400;
     font-size: 11px;
     line-height: 17px;
     color: #0D0D0D;
@@ -118,6 +119,12 @@
     border: 1px solid #0D0D0D;
     border-radius: 15px;
     margin: 0 20px 26px 20px;
+}
+.live2ong{
+    background-color: #DDF140;
+}
+.live2com{
+    background-color:  #FC97D9;
 }
 
 .live2 p
@@ -174,7 +181,7 @@
     background-color: #D4F34A;
     color:#2A2A2A;
     display: flex;
-    flex-direction: row;
+    flex-direction:row;
     justify-content: center;
     align-items: center;
     padding: 12px 20px;
@@ -183,11 +190,19 @@
     border: 0;
 }
 
+#register:hover{
+    background-color: transparent;
+    color:#D4F34A;
+    border:2px solid #D4F34A;
+    margin: auto 0;
+}
+
 #register p{
     font-weight: 700;
     font-size: 13px;
     line-height: 16px;
     font-family: sans-serif;
+    margin: auto 0;
 }
 
 #register img
@@ -307,4 +322,17 @@
         flex-direction: column;
         height: fit-content;
     }
+    .one,.three{
+        max-width: 100%;
+    }
+    .boxHeading{
+        margin:0;
+    }
+    .headingText{
+        font-size: xx-large;
+    }
+    #eventmainContainer{
+        margin: 0 0%;
+    }
 }
+

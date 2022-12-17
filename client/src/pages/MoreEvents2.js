@@ -9,6 +9,7 @@ import boxORBG from "./../icons/boxORBG.svg";
 import clickedArrowL from "./../icons/clickedArrowL.svg";
 import clickedArrowR from "./../icons/clickedArrowR.svg";
 import cosmicClash from "./../icons/cosmicClash.svg";
+import Countdown from "react-countdown";
 import Dframe from "./../icons/Dframe.svg";
 import disrupt from "./../icons/disrupt.svg";
 import encode from "./../icons/encode.svg";
@@ -34,6 +35,7 @@ const MoreEvents2 = () => {
             "tag": "ls",
             "id": "b1",
             "ori": "left",
+            "date": "Jan 20, 2023 16:37:25",
             "image": ls,
             "eventName": "LECTURE SERIES",
             "eventDesc": "Are you an entrepreneur looking to start your journey into the outer world? or Are you a startup owner looking for some unique growth opportunities?<br><br><br>To encourage, inspire and aid entrepreneurs, UDGAM 2022, IIT Guwahati, brings you its flagship event, \"Disrupt\" presented by GoToPitch, North-East India's largest B-Plan competition. We bring to you the platform through which you can attract and impress India's finest business minds who can turn your captivating idea into a surreal certainty.<br> Join the biggest pitch battle, which offers you fascinating prizes worth Rs 10 Lakhs+, Funding opportunities, Pre-Events, Workshops, Networking, AMA sessions, Free Legal Services, and much more. "
@@ -43,6 +45,7 @@ const MoreEvents2 = () => {
             "tag": "internfair",
             "id": "b2",
             "ori": "left",
+            "date": "Jan 20, 2023 16:37:25",
             "image": internfair,
             "eventName": "INTERNFAIR",
             "eventDesc": "Are you an entrepreneur looking to start your journey into the outer world? or Are you a startup owner looking for some unique growth opportunities?<br><br><br>To encourage, inspire and aid entrepreneurs, UDGAM 2022, IIT Guwahati, brings you its flagship event, \"Disrupt\" presented by GoToPitch, North-East India's largest B-Plan competition. We bring to you the platform through which you can attract and impress India's finest business minds who can turn your captivating idea into a surreal certainty.<br> Join the biggest pitch battle, which offers you fascinating prizes worth Rs 10 Lakhs+, Funding opportunities, Pre-Events, Workshops, Networking, AMA sessions, Free Legal Services, and much more. "
@@ -52,6 +55,7 @@ const MoreEvents2 = () => {
             "tag": "pmx",
             "id": "b3",
             "ori": "left",
+            "date": "Jan 20, 2023 16:37:25",
             "image": pmx,
             "eventName": "PMx",
             "eventDesc": "Are you an entrepreneur looking to start your journey into the outer world? or Are you a startup owner looking for some unique growth opportunities?<br><br><br>To encourage, inspire and aid entrepreneurs, UDGAM 2022, IIT Guwahati, brings you its flagship event, \"Disrupt\" presented by GoToPitch, North-East India's largest B-Plan competition. We bring to you the platform through which you can attract and impress India's finest business minds who can turn your captivating idea into a surreal certainty.<br> Join the biggest pitch battle, which offers you fascinating prizes worth Rs 10 Lakhs+, Funding opportunities, Pre-Events, Workshops, Networking, AMA sessions, Free Legal Services, and much more. "
@@ -60,7 +64,7 @@ const MoreEvents2 = () => {
         {
             "tag": "disrupt",
             "id": "b4",
-            "ori": "left",
+            "ori": "left","date": "Jan 20, 2023 16:37:25",
             "image": disrupt,
             "eventName": "DISRUPT",
             "eventDesc": "Are you an entrepreneur looking to start your journey into the outer world? or Are you a startup owner looking for some unique growth opportunities?<br><br><br>To encourage, inspire and aid entrepreneurs, UDGAM 2022, IIT Guwahati, brings you its flagship event, \"Disrupt\" presented by GoToPitch, North-East India's largest B-Plan competition. We bring to you the platform through which you can attract and impress India's finest business minds who can turn your captivating idea into a surreal certainty.<br> Join the biggest pitch battle, which offers you fascinating prizes worth Rs 10 Lakhs+, Funding opportunities, Pre-Events, Workshops, Networking, AMA sessions, Free Legal Services, and much more. "
@@ -69,7 +73,7 @@ const MoreEvents2 = () => {
         {
             "tag": "need",
             "id": "b5",
-            "ori": "left",
+            "ori": "left","date": "Jan 20, 2023 16:37:25",
             "image": need,
             "eventName": "NEED",
             "eventDesc": "Are you an entrepreneur looking to start your journey into the outer world? or Are you a startup owner looking for some unique growth opportunities?<br><br><br>To encourage, inspire and aid entrepreneurs, UDGAM 2022, IIT Guwahati, brings you its flagship event, \"Disrupt\" presented by GoToPitch, North-East India's largest B-Plan competition. We bring to you the platform through which you can attract and impress India's finest business minds who can turn your captivating idea into a surreal certainty.<br> Join the biggest pitch battle, which offers you fascinating prizes worth Rs 10 Lakhs+, Funding opportunities, Pre-Events, Workshops, Networking, AMA sessions, Free Legal Services, and much more. "
@@ -78,7 +82,7 @@ const MoreEvents2 = () => {
         {
             "tag": "cosmicclash",
             "id": "b6",
-            "ori": "left",
+            "ori": "left","date": "Jan 20, 2023 16:37:25",
             "image": cosmicClash,
             "eventName": "COSMIC CLASH",
             "eventDesc": "Are you an entrepreneur looking to start your journey into the outer world? or Are you a startup owner looking for some unique growth opportunities?<br><br><br>To encourage, inspire and aid entrepreneurs, UDGAM 2022, IIT Guwahati, brings you its flagship event, \"Disrupt\" presented by GoToPitch, North-East India's largest B-Plan competition. We bring to you the platform through which you can attract and impress India's finest business minds who can turn your captivating idea into a surreal certainty.<br> Join the biggest pitch battle, which offers you fascinating prizes worth Rs 10 Lakhs+, Funding opportunities, Pre-Events, Workshops, Networking, AMA sessions, Free Legal Services, and much more. "
@@ -86,7 +90,7 @@ const MoreEvents2 = () => {
         {
             "tag": "dframe",
             "id": "b7",
-            "ori": "right",
+            "ori": "right","date": "Jan 20, 2023 16:37:25",
             "image": Dframe,
             "eventName": "D-FRAME",
             "eventDesc": "Are you an entrepreneur looking to start your journey into the outer world? or Are you a startup owner looking for some unique growth opportunities?<br><br><br>To encourage, inspire and aid entrepreneurs, UDGAM 2022, IIT Guwahati, brings you its flagship event, \"Disrupt\" presented by GoToPitch, North-East India's largest B-Plan competition. We bring to you the platform through which you can attract and impress India's finest business minds who can turn your captivating idea into a surreal certainty.<br> Join the biggest pitch battle, which offers you fascinating prizes worth Rs 10 Lakhs+, Funding opportunities, Pre-Events, Workshops, Networking, AMA sessions, Free Legal Services, and much more. "
@@ -94,7 +98,7 @@ const MoreEvents2 = () => {
         {
             "tag": "encode",
             "id": "b8",
-            "ori": "right",
+            "ori": "right","date": "Jan 20, 2023 16:37:25",
             "image": encode,
             "eventName": "ENCODE",
             "eventDesc": "Are you an entrepreneur looking to start your journey into the outer world? or Are you a startup owner looking for some unique growth opportunities?<br><br><br>To encourage, inspire and aid entrepreneurs, UDGAM 2022, IIT Guwahati, brings you its flagship event, \"Disrupt\" presented by GoToPitch, North-East India's largest B-Plan competition. We bring to you the platform through which you can attract and impress India's finest business minds who can turn your captivating idea into a surreal certainty.<br> Join the biggest pitch battle, which offers you fascinating prizes worth Rs 10 Lakhs+, Funding opportunities, Pre-Events, Workshops, Networking, AMA sessions, Free Legal Services, and much more. "
@@ -102,7 +106,7 @@ const MoreEvents2 = () => {
         {
             "tag": "funevents",
             "id": "b9",
-            "ori": "right",
+            "ori": "right","date": "Jan 20, 2023 16:37:25",
             "image": funEvents,
             "eventName": "FUN EVENTS",
             "eventDesc": "Are you an entrepreneur looking to start your journey into the outer world? or Are you a startup owner looking for some unique growth opportunities?<br><br><br>To encourage, inspire and aid entrepreneurs, UDGAM 2022, IIT Guwahati, brings you its flagship event, \"Disrupt\" presented by GoToPitch, North-East India's largest B-Plan competition. We bring to you the platform through which you can attract and impress India's finest business minds who can turn your captivating idea into a surreal certainty.<br> Join the biggest pitch battle, which offers you fascinating prizes worth Rs 10 Lakhs+, Funding opportunities, Pre-Events, Workshops, Networking, AMA sessions, Free Legal Services, and much more. "
@@ -110,7 +114,7 @@ const MoreEvents2 = () => {
         {
             "tag": "sparkle",
             "id": "b10",
-            "ori": "right",
+            "ori": "right","date": "Jan 20, 2023 16:37:25",
             "image": sparkle,
             "eventName": "SPARKLE",
             "eventDesc": "Are you an entrepreneur looking to start your journey into the outer world? or Are you a startup owner looking for some unique growth opportunities?<br><br><br>To encourage, inspire and aid entrepreneurs, UDGAM 2022, IIT Guwahati, brings you its flagship event, \"Disrupt\" presented by GoToPitch, North-East India's largest B-Plan competition. We bring to you the platform through which you can attract and impress India's finest business minds who can turn your captivating idea into a surreal certainty.<br> Join the biggest pitch battle, which offers you fascinating prizes worth Rs 10 Lakhs+, Funding opportunities, Pre-Events, Workshops, Networking, AMA sessions, Free Legal Services, and much more. "
@@ -118,7 +122,7 @@ const MoreEvents2 = () => {
         {
             "tag": "workshops",
             "id": "b11",
-            "ori": "right",
+            "ori": "right","date": "Jan 20, 2023 16:37:25",
             "image": workshops,
             "eventName": "WORKSHOPS",
             "eventDesc": "Are you an entrepreneur looking to start your journey into the outer world? or Are you a startup owner looking for some unique growth opportunities?<br><br><br>To encourage, inspire and aid entrepreneurs, UDGAM 2022, IIT Guwahati, brings you its flagship event, \"Disrupt\" presented by GoToPitch, North-East India's largest B-Plan competition. We bring to you the platform through which you can attract and impress India's finest business minds who can turn your captivating idea into a surreal certainty.<br> Join the biggest pitch battle, which offers you fascinating prizes worth Rs 10 Lakhs+, Funding opportunities, Pre-Events, Workshops, Networking, AMA sessions, Free Legal Services, and much more. "
@@ -150,34 +154,18 @@ const MoreEvents2 = () => {
         var countDownDate = new Date("Jan 5, 2024 15:37:25").getTime();
         
     });
+    const renderer = ({ days, hours, minutes, seconds, completed }) => {
+        if (completed) {
+          // Render a completed state
+          return <span>Registration closed</span>;
+        } else {
+          // Render a countdown
+          return <span>{days} days: {hours} hr: {minutes} min</span>;
+        }
+      };
 
-    function countDowntimer(){
-        var countDownDate = new Date("Jan 5, 2024 15:37:25").getTime();
-        // Update the count down every 1 second
-var x = setInterval(function() {
-
-    // Get today's date and time
-    var now = new Date().getTime();
-  
-    // Find the distance between now and the count down date
-    var distance = countDownDate - now;
-  
-    // Time calculations for days, hours, minutes and seconds
-    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-  
-    // Display the result in the element with id="demo"
-    document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-    + minutes + "m " + seconds + "s ";
-  
-    // If the count down is finished, write some text
-    if (distance < 0) {
-      clearInterval(x);
-      document.getElementById("demo").innerHTML = "EXPIRED";
-    }}, 1000);
-    }
+ 
+    
     return (
         <div className="moreEvents">
             <Navbar />
@@ -199,7 +187,7 @@ var x = setInterval(function() {
                             </div>
                             <div className="live2">
                                 <img src={live} alt="" />
-                                <p>ends in 03:09:54</p>
+                                <p><Countdown date={new Date(eventsdata[0].date).getTime()} renderer={renderer}/></p>
                             </div>
                         </div>
                         <div id="internfair" className="containerM">
@@ -214,7 +202,7 @@ var x = setInterval(function() {
                             </div>
                             <div className="live2">
                                 <img src={live} alt="" />
-                                <p>ends in 03:09:54</p>
+                                <p><Countdown date={new Date(eventsdata[1].date).getTime()} renderer={renderer}/></p>
                             </div>
                         </div>
                         <div id="pmx"className="containerM">
@@ -229,7 +217,7 @@ var x = setInterval(function() {
                             </div>
                             <div className="live2">
                                 <img src={live} alt="" />
-                                <p>ends in 03:09:54</p>
+                                <p><Countdown date={new Date(eventsdata[2].date).getTime()} renderer={renderer}/></p>
                             </div>
                         </div>
                         <div id="disrupt"className="containerM">
@@ -244,7 +232,7 @@ var x = setInterval(function() {
                             </div>
                             <div className="live2">
                                 <img src={live} alt="" />
-                                <p>ends in 03:09:54</p>
+                                <p><Countdown date={new Date(eventsdata[3].date).getTime()} renderer={renderer}/></p>
                             </div>
                         </div>
                         <div id="need" className="containerM">
@@ -259,7 +247,7 @@ var x = setInterval(function() {
                             </div>
                             <div className="live2">
                                 <img src={live} alt="" />
-                                <p>ends in 03:09:54</p>
+                                <p><Countdown date={new Date(eventsdata[4].date).getTime()} renderer={renderer}/></p>
                             </div>
                         </div>
                         <div id="cosmicclash" className="containerM">
@@ -274,7 +262,7 @@ var x = setInterval(function() {
                             </div>
                             <div className="live2">
                                 <img src={live} alt="" />
-                                <p>ends in 03:09:54</p>
+                                <p><Countdown date={new Date(eventsdata[5].date).getTime()} renderer={renderer}/></p>
                             </div>
                         </div>
 
@@ -358,7 +346,7 @@ var x = setInterval(function() {
                             </div>
                             <div className="live2">
                                 <img src={live} alt="" />
-                                <p>ends in 03:09:54</p>
+                                <p><Countdown date={new Date(eventsdata[6].date).getTime()} renderer={renderer}/></p>
                             </div>
                         </div>
                         <div id="encode" className="containerM">
@@ -374,7 +362,7 @@ var x = setInterval(function() {
                             </div>
                             <div className="live2">
                                 <img src={live} alt="" />
-                                <p>ends in 03:09:54</p>
+                                <p><Countdown date={new Date(eventsdata[7].date).getTime()} renderer={renderer}/></p>
                             </div>
                         </div>
                         <div id="funevents" className="containerM">
@@ -390,7 +378,7 @@ var x = setInterval(function() {
                             </div>
                             <div className="live2">
                                 <img src={live} alt="" />
-                                <p>ends in 03:09:54</p>
+                                <p><Countdown date={new Date(eventsdata[8].date).getTime()} renderer={renderer}/></p>
                             </div>
                         </div>
                         <div id="sparkle" className="containerM">
@@ -406,7 +394,7 @@ var x = setInterval(function() {
                             </div>
                             <div className="live2">
                                 <img src={live} alt="" />
-                                <p>ends in 03:09:54</p>
+                                <p><Countdown date={new Date(eventsdata[9].date).getTime()} renderer={renderer}/></p>
                             </div>
                         </div>
                         <div  id="workshops" className="containerM">
@@ -422,7 +410,7 @@ var x = setInterval(function() {
                             </div>
                             <div className="live2">
                                 <img src={live} alt="" />
-                                <p>ends in 03:09:54</p>
+                                <p><Countdown date={new Date(eventsdata[10].date).getTime()} renderer={renderer}/></p>
                             </div>
                         </div>
                     </div>
