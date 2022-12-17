@@ -7,25 +7,29 @@ import live from "../../icons/live.png";
 import view from "../../icons/view.png";
 import barcode from "../../icons/barcode.svg";
 import Vector3 from "../../icons/Vector3.svg";
-import "./Events.css";
+import "./Events.css"; import { Link } from 'react-router-dom';
+import { Button } from '@cred/neopop-web/lib/components';
 function Events() {
     return (
-        <div id="container" >
+        <div id="containerevent" >
             <div id="up">
                 <div id="heading">
                     <p>WHY AM I HERE?</p>
                 </div>
                 <div id="moreEvents">
-                    <button><p>More Events</p><img src={Vector} alt="" /></button>
+                    <Link to={"/events"} params={{ event: 1 }}>
+                        <button className='topbutevent' >More Events</button>
+                    </Link>
+
                 </div>
             </div>
             <div id="down">
                 <div id="events">
-                    <div className="container">
+                    <div className="containerevent">
                         <div className="count">
                             <p>1</p>
                         </div>
-                        <div className="content">
+                        <div className="content2">
                             <div className="heading">
                                 <p>INTERNFAIR</p>
                                 <div className="check">
@@ -40,7 +44,7 @@ function Events() {
                                     Register
                                     <img src={Vector2} alt="" />
                                 </button>
-                                <button className="live">
+                                <button className="live1">
                                     <img src={live} alt="" />
                                     ends in 03:09:54
                                 </button>
@@ -48,11 +52,11 @@ function Events() {
 
                         </div>
                     </div>
-                    <div className="container">
+                    <div className="containerevent">
                         <div className="count">
                             <p>1</p>
                         </div>
-                        <div className="content">
+                        <div className="content2">
                             <div className="heading">
                                 <p>INTERNFAIR</p>
                                 <div className="check">
@@ -67,7 +71,7 @@ function Events() {
                                     Register
                                     <img src={Vector2} alt="" color="#3A10AD" />
                                 </button>
-                                <button className="live">
+                                <button className="live1">
                                     <img src={live} alt="" />
                                     ends in 03:09:54
                                 </button>
@@ -75,11 +79,11 @@ function Events() {
 
                         </div>
                     </div>
-                    <div className="container">
+                    <div className="containerevent">
                         <div className="count">
                             <p>1</p>
                         </div>
-                        <div className="content">
+                        <div className="content2">
                             <div className="heading">
                                 <p>INTERNFAIR</p>
                                 <div className="check">
@@ -111,7 +115,7 @@ function Events() {
                         <div id="price">
                             <p className="pdHeading">Price</p>
                             <p className="price">
-₹199</p>
+                                ₹199</p>
 
                         </div>
                         <div id="date">
@@ -125,8 +129,22 @@ function Events() {
                         </div>
 
                     </div>
+                    <div className='buttonwrappass'>
+                    <Button
+                            variant="primary"
+                            kind="elevated"
+                            size="big"
+                            colorMode="light"
+                            colorConfig={{ backgroundColor: "#F0E266", borderColor: "black", edgeColors: { right: "#FC97D9", bottom: "#FC97D9" } }}
+                            spacingConfig={{ height: "60px" }}
+                            onClick={() => {
+                                console.log("I'm clicked");
+                            }}
+                        >
+                            <div className="GetTkt" style={{ color: "black" }}>COUNT ME IN</div>
+                        </Button>
+                    </div>
                     <div className="buyPass">
-                        <button><p>Buy Pass <img src={Vector3} alt="" /></p></button>
                         <div className="time">
                             <img src={live} alt="" />
                             ends in 03:09:54

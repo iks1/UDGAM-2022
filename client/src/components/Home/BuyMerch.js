@@ -1,8 +1,10 @@
 import React from 'react'
 import "./BuyMerch.css";
 import { Button } from '@cred/neopop-web/lib/components';
-import { colorGuide } from '@cred/neopop-web/lib/primitives';
-import { colorPalette } from '@cred/neopop-web/lib/primitives';
+
+import { ToastContainer, toast } from 'react-toastify';
+  import 'react-toastify/dist/ReactToastify.css';
+  import Toast3rd from '../toast';
 function BuyMerch() {
   return (
     <div className='merch' id='merch'  style={{backgroundColor:"#0c0227"}}>
@@ -29,18 +31,17 @@ function BuyMerch() {
             kind="elevated"
             size="big"
             colorMode="light"
-             colorConfig={{backgroundColor:"#F0E266",borderColor:"#736B1F",edgeColors:{right:"#736B1F",bottom:"#736B1F"}}}
+            colorConfig={{backgroundColor:"#F0E266",borderColor:"black",edgeColors:{right:"#736B1F",bottom:"#736B1F"}}}
              spacingConfig={{height:"70px"}}
             onClick={() => {
-                console.log("I'm clicked");
+              toast("COMING SOON !!");
             }}
         >
             <div className="GetTkt" style={{color:"black"}}>BUY MERCH</div>
     </Button></div>
     </div>
-   
-     
     </div>
+    
   )
 }
 

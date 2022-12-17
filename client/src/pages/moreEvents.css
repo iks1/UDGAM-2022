@@ -18,12 +18,11 @@
     margin-bottom: 68px;
 }
 
-#mainContainer
+#eventmainContainer
 {
     display: flex;
     flex-direction: row;
-    width:100%;
-
+    margin:0 60px;
 }
 .one,.three
 {
@@ -37,17 +36,27 @@
     width:100%;
     
 }
+.containerMhigh
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #2D1373;
+    border: 1px solid #383542;
+}
+.containerMhigh .headingM p{
+    color: #D4F34A;
+}
 
 .containerM
 {
-    display: flex;
     flex-direction: column;
     justify-content: space-between;
     background-color:#FAF9FF;
     border: 1px solid #383542;
 }
 
-.three .containerM .live
+.three .containerM .live2
 {
     align-self: flex-end;
 }
@@ -79,17 +88,24 @@
 
 .content
 {
-    margin:0px 20px 22px 20px;
+    margin:0px 20px 22px 0px;
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
     font-family: sans-serif;
     color: #6A6771;
+    width: 100%;
+    
+    padding: 0 20px;
+}
+.contentright{
+    text-align: right;
 }
 
-.live
+.live2
 {
     font-weight: 400;
+    background-color: #DDF140;
     font-size: 11px;
     line-height: 17px;
     color: #0D0D0D;
@@ -104,12 +120,12 @@
     margin: 0 20px 26px 20px;
 }
 
-.live p
+.live2 p
 {
     margin: 6px 37.5px 6px 8px;
 }
 
-.live img
+.live2 img
 {
     margin: 12px 0 12px 37.5px;
 }
@@ -179,9 +195,10 @@
     margin-left: 10px;
 }
 
-.text
+.eventtext
 {
     margin: 0 26px;
+    font-size: 21px;
 }
 
 .descFooter
@@ -199,11 +216,32 @@
 .box
 {
     height: 190px;
-    background-image: url(../icons/boxOLBG.png);
-    background-size: cover;
+    
     display: flex;
     flex-direction: row;
 }
+
+.olbg{
+
+    background-image: url(../icons/boxOLBG.png);
+    background-size: cover;
+}
+.orbg{
+
+    background-image: url(../icons/boxORBG.svg);
+    background-size: cover;
+}
+.elbg{
+
+    background-image: url(../icons/boxELBG.svg);
+    background-size: cover;
+}
+.erbg{
+
+    background-image: url(../icons/boxERBG.svg);
+    background-size: cover;
+}
+
 
 .footerHeading
 {
@@ -257,4 +295,16 @@
 {
     font-size: 15px;
     letter-spacing: 1.5px;
+}
+
+@media (max-width: 600px){
+    #eventmainContainer
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .box{
+        flex-direction: column;
+        height: fit-content;
+    }
 }

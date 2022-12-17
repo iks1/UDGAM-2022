@@ -13,10 +13,11 @@ import AllSpeakers from './pages/allspeaker';
 import MoreEvents2 from './pages/MoreEvents2';
 import Sponsors from './pages/sponsors';
 import OurTeam from './pages/ourteam';
-
+import Toast3rd from './components/toast';
 function App() {
   return (
     <body style={{overscrollBehavior:'none'}} >
+          <Toast3rd/>
     <Router>
     <Routes>
       <Route exact path='/' element={<Home/>}/>
@@ -27,7 +28,7 @@ function App() {
       <Route exact path="/speakers" element={<AllSpeakers />} />
       <Route exact path="/sponsors" element={<Sponsors />} />
       <Route exact path="/events/" element={<MoreEvents2/>} />
-      <Route exact path="/events/ls" element={<MoreEvents2/>} />
+      {/* <Route path={MY_ROUTE(':userId')} /> */}
       <Route exact path="/ourteam" element={<OurTeam/>} />
   
       

@@ -1,10 +1,8 @@
 
 .sponsorpage{
-    background-color: #09021C;
     height: fit-content;
 }
 .sponsorbox{
-    background-color: #09021C;
 }
 .sponsorbox h1{
     font-family: Founders Grotesk;
@@ -16,14 +14,16 @@
     text-transform: uppercase;
     padding-left: 50px;
     padding-top: 130px;
+    padding-bottom: 80px;
 }
 
 .title-sponsor h3{
     font-family: Action Sans;
-    color: #FC97D9;
+    color: #DDF140;
+    
     font-weight: 400;
     font-size: 32px;
-    line-height: 100%;
+    line-height: 32px;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
@@ -34,7 +34,6 @@
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
-    background-color: #09021C;
 }
 
 .title-sponsor {
@@ -47,20 +46,17 @@
 
 .associate-title {
     display: flex;
-    width: calc(100% - 72px);
+    width: 100%;
     justify-content: space-around;
     margin-bottom: 160px;
 }
-
-.associate-title h3 {
-    font-family: Action Sans;
-    color: #FC97D9;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 100%;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
+.associate-title2{
+    display: flex;
+    width: calc(100% - 72px);
+    justify-content: center;
+    margin-bottom: 160px;
 }
+
 
 .associate-title .individual-associate {
     display: flex;
@@ -90,6 +86,7 @@
     font-weight: 400;
     font-size: 32px;
     line-height: 100%;
+    padding-bottom: 20px;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
@@ -134,13 +131,27 @@
 }
 
 
+.associate-title h3,  .partners-subtitle {
+    font-family: Action Sans;
+    color: #DDF140;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    padding-top: 10px;
+}
+
 
 
 @media (max-width:600px)
 {
     .sponsorbox h1{
      
-        font-size: xx-large;
+        font-size: xxx-large;
+        text-align: center;
+        padding-left: 0px;
+
     }
     .body{
         margin: 0;
@@ -172,4 +183,11 @@
         width: fit-content;
         align-items: center;
     }
+    .tatalogo{
+        width: 80%;
+    }
+    .lastsponsor,.individual-associate{
+        padding-bottom: 30px;
+    }
+    
 }
